@@ -8,6 +8,7 @@ import Loader from 'ui/Loader';
 import RecentTradesTableItem from '../RecentTradesTableItem';
 import { IRecentTradesTableProps } from './types';
 
+// ================================================:
 const RecentTradesTable: FC<IRecentTradesTableProps> = ({ data }) => {
 	const currentPair = useSelector(getCurrentPair);
 	const recentTradesIsLoad = useSelector(getSpotRecentTradesIsLoad);

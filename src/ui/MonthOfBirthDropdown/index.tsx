@@ -3,7 +3,7 @@ import { dataFromRange } from 'services/utils/dataFromRange';
 import successIcon from 'assets/img/icons/success-icon.svg';
 import { IMonthOfBirthDropdownProps } from './types';
 
-// ==================================:
+// ================================================:
 const MonthOfBirthDropdown: FC<IMonthOfBirthDropdownProps> = (props) => {
 	const { value, placeholder = 'Month of Birth', onChange } = props;
 

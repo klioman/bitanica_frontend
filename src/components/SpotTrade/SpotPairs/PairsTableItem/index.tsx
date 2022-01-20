@@ -5,6 +5,7 @@ import { setCurrentPair } from 'redux/reducers/tradingSettings/reducer';
 import { fixedCropNumber } from 'services/utils/fixedCropNumber';
 import { IPairsTableItemProps } from './types';
 
+// ================================================:
 const PairsTableItem: FC<IPairsTableItemProps> = ({ pair }) => {
 	const { code, change24h, last_price, view_decimal } = pair;
 

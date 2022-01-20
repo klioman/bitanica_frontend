@@ -6,6 +6,7 @@ import Loader from 'ui/Loader';
 import OrderBookTableItem from '../OrderBookTableItem';
 import { IOrderBookTableProps } from './types';
 
+// ================================================:
 const OrderBookTable: FC<IOrderBookTableProps> = ({ data, type }) => {
 	const orderBookListIsLoad = useSelector(getSpotOrderBookIsLoad);
 

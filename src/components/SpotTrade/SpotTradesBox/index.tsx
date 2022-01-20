@@ -1,10 +1,11 @@
 import { FC, useState, MouseEvent } from 'react';
-import SocketWithPrivateTopicConnectWrapper from 'components/SocketWithPrivateTopicConnectWrapper';
 import L from 'i18n-react';
 import { useSelector } from 'react-redux';
+import SocketWithPrivateTopicConnectWrapper from 'components/SocketWithPrivateTopicConnectWrapper';
 import { getWorkspaceSettings } from 'redux/reducers/tradingSettings/selectors';
 import BuySellWrapper from './BuySellWrapper';
 
+// ================================================:
 const SpotTradesBox: FC = () => {
 	const workspaceSettings = useSelector(getWorkspaceSettings);
 	const [orderType, setOrderType] = useState('limit_order');

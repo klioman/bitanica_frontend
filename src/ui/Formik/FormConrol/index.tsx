@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import { IAdminFormConrol } from './types';
 
-// ==========================================:
+// ================================================:
 const FormControl: FC<IAdminFormConrol> = (props) => {
 	const { form, field, isShowPass, setIsShowPass, title, children, ariaLabel } = props;
 

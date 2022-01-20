@@ -14,6 +14,7 @@ import LoginOrRegister from 'ui/LoginOrRegister';
 import PercentRadioButtons from '../PercentRadioButtons';
 import { IStopLimitOrderProps } from './types';
 
+// ================================================:
 const StopLimitOrder: FC<IStopLimitOrderProps> = ({
 	mode,
 	assetToTradeCode,

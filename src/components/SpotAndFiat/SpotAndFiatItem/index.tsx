@@ -8,6 +8,7 @@ import { getCurrentPair } from 'redux/reducers/tradingSettings/selectors';
 import { numberFormat } from 'services/utils/numberFormat';
 import { ISpotAndFiatItemProps } from './types';
 
+// ================================================:
 const SpotAndFiatItem: FC<ISpotAndFiatItemProps> = ({ data, balancesIsHide }) => {
 	const history = useHistory();
 	const dispatch = useDispatch();

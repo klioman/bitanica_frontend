@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import { ITextError } from './types';
 
-// ==========================================:
+// ================================================:
 const TextError: FC<ITextError> = ({ children }) => {
 	return (
 		<div className="input-notify">

@@ -7,14 +7,14 @@ import {
 	IWitdrawCryptoStore,
 } from './types';
 
-// ==========================================:
+// ================================================:
 export const initialState: IWitdrawCryptoStore = {
 	toWithdrawalAddresIsValid: true,
 	checkWithdrawalAddressLoader: false,
 	confirmWithdrawLoader: false,
 };
 
-// ==========================================:
+// ================================================:
 const withdrawCrypto = createSlice({
 	name: '@@withdrawCrypto',
 	initialState,

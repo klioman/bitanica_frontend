@@ -3,6 +3,7 @@ import SpotHistoryTables from '../SpotHistoryTables';
 import SpotMarketHeader from '../SpotMarketHeader';
 import SpotTradesBox from '../SpotTradesBox';
 
+// ================================================:
 const SpotTradeWithoutOrderBookAndTradingPairs = () => {
 	return (
 		<div className="content-inner">

@@ -5,6 +5,7 @@ import SpotPairs from '../SpotPairs';
 import SpotRecentTrades from '../SpotRecentTrades';
 import SpotTradesBox from '../SpotTradesBox';
 
+// ================================================:
 const SpotTradeWithTradingPairs = () => {
 	return (
 		<div className="content-inner">

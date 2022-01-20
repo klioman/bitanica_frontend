@@ -1,6 +1,7 @@
 import { FC, useEffect, MouseEvent, useState } from 'react';
 import { IPercentRadioButtonsProps } from './types';
 
+// ================================================:
 const PercentRadioButtons: FC<IPercentRadioButtonsProps> = ({
 	countOrder,
 	percentButtonCountValue,

@@ -3,7 +3,7 @@ import { FC } from 'react';
 import FormControl from 'ui/Formik/FormConrol';
 import { IAdminInput } from './types';
 
-// ==========================================:
+// ================================================:
 const Input: FC<IAdminInput> = (props) => {
 	const { ariaLabel, type, field, placeholder, inputMode, onKeyUp } = props;
 	return (

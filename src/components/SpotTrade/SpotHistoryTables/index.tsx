@@ -1,7 +1,7 @@
-import SocketWithPrivateTopicConnectWrapper from 'components/SocketWithPrivateTopicConnectWrapper';
 import { ChangeEvent, FC, MouseEvent, useState } from 'react';
 import L from 'i18n-react';
 import { useSelector } from 'react-redux';
+import SocketWithPrivateTopicConnectWrapper from 'components/SocketWithPrivateTopicConnectWrapper';
 import { getAuthIsAuthenticated } from 'redux/reducers/auth/selectors';
 import { getSpotUserOpenOrders } from 'redux/reducers/spotTrade/selectors';
 import LoginOrRegister from 'ui/LoginOrRegister';
@@ -9,6 +9,7 @@ import OpenOrders from './OpenOrders';
 import OrdersHistory from './OrdersHistory';
 import TradesHitory from './TradesHitory';
 
+// ================================================:
 const SpotHistoryTables: FC = () => {
 	const authIsAuthenticated = useSelector(getAuthIsAuthenticated);
 	const openOrders = useSelector(getSpotUserOpenOrders);

@@ -1,13 +1,13 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { IAppStore, IMobileMenu } from './types';
 
-// ==========================================:
+// ================================================:
 const initialState: IAppStore = {
 	mobileMenu: false,
 	lang: 'EN',
 };
 
-// ==========================================:
+// ================================================:
 const app = createSlice({
 	name: '@@app',
 	initialState,

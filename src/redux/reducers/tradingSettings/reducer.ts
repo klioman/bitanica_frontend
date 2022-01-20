@@ -3,7 +3,7 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { ITradingSettingsPayload, ITradingSettingsStore } from './types';
 
-// ==========================================:
+// ================================================:
 export const initialState: ITradingSettingsStore = {
 	workspaceSettings: {
 		orderBookSection: true,
@@ -13,7 +13,7 @@ export const initialState: ITradingSettingsStore = {
 	interval: '60',
 };
 
-// ==========================================:
+// ================================================:
 const tradingSettings = createSlice({
 	name: '@@tradingSettings',
 	initialState,

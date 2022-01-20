@@ -7,14 +7,14 @@ import {
 	ICreateExchangeRequestPayload,
 } from './types';
 
-// ==========================================:
+// ================================================:
 export const initialState: IConvertStore = {
 	exchangeRate: null,
 	exchangeRateLoader: false,
 	makeExchangeLoader: false,
 };
 
-// ==========================================:
+// ================================================:
 const convert = createSlice({
 	name: '@@convert',
 	initialState,

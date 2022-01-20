@@ -2,6 +2,7 @@ import { FC } from 'react';
 import ReactPaginate from 'react-paginate';
 import { IHandlePage, IPaginationProps } from './types';
 
+// ================================================:
 const Pagination: FC<IPaginationProps> = ({ pageCount, forcePage, onPageChange }) => {
 	const handlePage = (props: IHandlePage) => {
 		const { selected } = props;

@@ -1,7 +1,7 @@
 import { forwardRef } from 'react';
 import { IDatepickerProps } from './types';
 
-// ==========================================:
+// ================================================:
 const DatepickerSearch = forwardRef((props: IDatepickerProps, ref: React.Ref<HTMLInputElement>) => {
 	const { onClick, value } = props;
 	return (

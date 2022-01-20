@@ -1,7 +1,7 @@
 import { FC, useEffect, useRef, useState } from 'react';
 import { ITHDropdown } from './types';
 
-// ==================================:
+// ================================================:
 const THDropdown: FC<ITHDropdown> = (props) => {
 	const { value, options, placeholder = 'Select ...', onChange } = props;
 

@@ -4,6 +4,7 @@ import L from 'i18n-react';
 import Popup from 'reactjs-popup';
 import { IConfirmDeletePopupProps } from './types';
 
+// ================================================:
 const ConfirmDeletePopup: FC<IConfirmDeletePopupProps> = ({
 	title = '',
 	bodyMessage = '',

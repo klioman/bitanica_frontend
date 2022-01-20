@@ -10,7 +10,7 @@ import {
 	IUserSettings,
 } from './types';
 
-// ==========================================:
+// ================================================:
 export const initialState: ISettingsStore = {
 	userSettingsData: null,
 	data2fa: null,
@@ -22,7 +22,7 @@ export const initialState: ISettingsStore = {
 	changePassLoader: false,
 };
 
-// ==========================================:
+// ================================================:
 const settings = createSlice({
 	name: '@@auth',
 	initialState,

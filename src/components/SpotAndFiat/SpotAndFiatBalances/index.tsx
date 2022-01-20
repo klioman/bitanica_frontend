@@ -6,6 +6,7 @@ import { fixedCropNumber } from 'services/utils/fixedCropNumber';
 import { numberFormat } from 'services/utils/numberFormat';
 import { ISpotAndFiatBalancesProps } from './types';
 
+// ================================================:
 const SpotAndFiatBalances: FC<ISpotAndFiatBalancesProps> = ({ balancesIsHide }) => {
 	const walletsList = useSelector(getWalletsList);
 

@@ -7,6 +7,7 @@ import { getFirstPartPairCode, getLastPartPairCode } from 'services/utils/tradin
 import SwitchOrderType from '../SwitchOrderType';
 import { IBuySellWrapperProps, ICurrentPairBalanceData, ISpotData } from './types';
 
+// ================================================:
 const getCurrentPairBalance = (
 	spotDataValue: ISpotData | 0 | undefined,
 	buyCode: string,

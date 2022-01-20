@@ -2,7 +2,7 @@ import { FC, useEffect, useRef, useState } from 'react';
 import { IWalletNetworkItem } from 'redux/reducers/wallets/types';
 import { IDCNDropdown } from './types';
 
-// ==================================:
+// ================================================:
 const DCNDropdown: FC<IDCNDropdown> = (props) => {
 	const { value, options, placeholder = 'Select network', onChange } = props;
 

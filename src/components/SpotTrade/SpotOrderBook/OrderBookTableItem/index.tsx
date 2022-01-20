@@ -1,11 +1,12 @@
 /* eslint-disable @typescript-eslint/naming-convention */
-import useDecimals from 'hooks/useDecimals';
 import { FC } from 'react';
 import { useDispatch } from 'react-redux';
+import useDecimals from 'hooks/useDecimals';
 import { setTempOrderPrice } from 'redux/reducers/orders/reducer';
 import { fixedCropNumber } from 'services/utils/fixedCropNumber';
 import { IOrderBookTableItemProps } from './types';
 
+// ================================================:
 const OrderBookTableItem: FC<IOrderBookTableItemProps> = ({ data, type }) => {
 	const { price, quantity_left, total } = data;
 	const dispatch = useDispatch();

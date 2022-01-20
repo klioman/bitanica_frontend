@@ -1,6 +1,7 @@
 import { FC, MouseEvent, useEffect, memo } from 'react';
 import { ISortedButtonProps } from './types';
 
+// ================================================:
 const SortedButton: FC<ISortedButtonProps> = ({
 	title,
 	sortType,

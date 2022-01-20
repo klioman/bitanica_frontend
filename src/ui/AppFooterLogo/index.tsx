@@ -2,7 +2,7 @@ import { FC } from 'react';
 import { useLocation } from 'react-router';
 import { Link } from 'react-router-dom';
 
-// ==========================================:
+// ================================================:
 const AppFooterLogo: FC = () => {
 	const location = useLocation();
 

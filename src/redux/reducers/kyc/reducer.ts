@@ -7,7 +7,7 @@ import {
 	IKycOndatoUserDataResponsePayload,
 } from './types';
 
-// ==========================================:
+// ================================================:
 export const initialState: IKycStore = {
 	kycOndatoURL: null,
 	kycOndatoURLLoader: false,
@@ -15,7 +15,7 @@ export const initialState: IKycStore = {
 	kycOndatoUserDataLoader: false,
 };
 
-// ==========================================:
+// ================================================:
 const kyc = createSlice({
 	name: '@@kyc',
 	initialState,

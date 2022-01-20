@@ -1,11 +1,12 @@
-import SocketWithTopicConnectWrapper from 'components/SocketWithTopicConnectWrapper';
 import { ChangeEvent, MouseEvent, FC, useState } from 'react';
 import L from 'i18n-react';
 import { useSelector } from 'react-redux';
+import SocketWithTopicConnectWrapper from 'components/SocketWithTopicConnectWrapper';
 import { getWorkspaceSettings } from 'redux/reducers/tradingSettings/selectors';
 import AssetBar from './AssetBar';
 import PairsTable from './PairsTable';
 
+// ================================================:
 const SpotPairs: FC = () => {
 	const workspaceSettings = useSelector(getWorkspaceSettings);
 

@@ -6,6 +6,7 @@ import { setWorkspaceSettings } from 'redux/reducers/tradingSettings/reducer';
 import { getWorkspaceSettings } from 'redux/reducers/tradingSettings/selectors';
 import { IChangeSpotMarketSettingsProps } from './types';
 
+// ================================================:
 const SpotMarketSettingsModal: FC<IChangeSpotMarketSettingsProps> = ({ openModal, closeModal }) => {
 	const workspaceSettings = useSelector(getWorkspaceSettings);
 	const dispatch = useDispatch();

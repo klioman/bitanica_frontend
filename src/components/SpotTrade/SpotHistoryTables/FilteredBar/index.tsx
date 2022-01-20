@@ -4,6 +4,7 @@ import DatepickerSearch from 'ui/DatepickerSearch';
 import { IFilteredBarProps } from './types';
 import 'react-datepicker/dist/react-datepicker.css';
 
+// ================================================:
 const FilteredBar: FC<IFilteredBarProps> = ({
 	period,
 	setCurrentPeriod,

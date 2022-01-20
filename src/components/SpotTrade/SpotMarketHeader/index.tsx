@@ -14,6 +14,7 @@ import { fixedCropNumber } from 'services/utils/fixedCropNumber';
 import { convertExponentialToDecimal } from 'services/utils/convertEcponential';
 import SpotMarketSettingsModal from '../SpotMarketSettingsModal';
 
+// ================================================:
 const SpotMarketHeader: FC = () => {
 	const [openModal, setOpenModal] = useState(false);
 	const closeModal = () => setOpenModal(false);

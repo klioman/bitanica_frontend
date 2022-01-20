@@ -6,6 +6,7 @@ import { getSpotRecentTrades } from 'redux/reducers/spotTrade/selectors';
 import { getCurrentPair } from 'redux/reducers/tradingSettings/selectors';
 import { fixedCropNumber } from 'services/utils/fixedCropNumber';
 
+// ================================================:
 const LastTradeBlock: FC = () => {
 	const currentPair = useSelector(getCurrentPair);
 	const assetPairsList = useSelector(getAssetPairsList);

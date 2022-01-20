@@ -5,7 +5,7 @@ import Account from 'layouts/Account';
 import TwoFactorAuth from 'components/UserAccount/TwoFactorAuth';
 import { check2faEnablesRequest } from 'redux/reducers/settings/reducer';
 
-// ==========================================:
+// ================================================:
 const Auth2fa: FC = () => {
 	const dispatch = useDispatch();
 

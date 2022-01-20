@@ -2,7 +2,7 @@ import { FC, useEffect, useRef, useState } from 'react';
 import { IWalletItem } from 'redux/reducers/wallets/types';
 import { ITHAssetDropdownProps } from './types';
 
-// ==================================:
+// ================================================:
 const THAssetDropdown: FC<ITHAssetDropdownProps> = (props) => {
 	const { value, options, onChange } = props;
 

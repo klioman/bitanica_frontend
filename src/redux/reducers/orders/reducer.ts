@@ -10,7 +10,7 @@ import {
 	IOrdersStore,
 } from './types';
 
-// ==========================================:
+// ================================================:
 export const initialState: IOrdersStore = {
 	calculate: {
 		limitOrder: null,
@@ -19,7 +19,7 @@ export const initialState: IOrdersStore = {
 	tempOrderPrice: 0,
 };
 
-// ==========================================:
+// ================================================:
 const orders = createSlice({
 	name: '@@orders',
 	initialState,

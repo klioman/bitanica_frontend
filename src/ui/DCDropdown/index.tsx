@@ -2,7 +2,7 @@ import { FC, useEffect, useRef, useState } from 'react';
 import { IWalletItem } from 'redux/reducers/wallets/types';
 import { IDCDropdown } from './types';
 
-// ==================================:
+// ================================================:
 const DCDropdown: FC<IDCDropdown> = (props) => {
 	const { value, options, placeholder = 'Select coin...', onChange } = props;
 

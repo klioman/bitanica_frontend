@@ -6,6 +6,7 @@ import SortedButton from 'ui/SortedButton';
 import SpotAndFiatItem from '../SpotAndFiatItem';
 import { ISpotAndFiatSortingTableProps } from './types';
 
+// ================================================:
 const SpotAndFiatSortingTable: FC<ISpotAndFiatSortingTableProps> = ({ data, balancesIsHide }) => {
 	const [sortMagnitude, setSortMagnitude] = useState('');
 	const [sortType, setSortType] = useState('');

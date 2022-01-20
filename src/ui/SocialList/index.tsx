@@ -1,6 +1,6 @@
 import { FC } from 'react';
 
-// ==========================================:
+// ================================================:
 const SocialList: FC = () => {
 	return (
 		<div className="social footer__social">

@@ -8,6 +8,7 @@ import {
 import { transformPairCode } from 'services/utils/tradingPairHelpers';
 import { IOrdersHistoryItemProps } from './types';
 
+// ================================================:
 const OrdersHistoryItem: FC<IOrdersHistoryItemProps> = ({ data }) => {
 	const { created_at, pair, type, price, average, quantity, total, status, filling } = data;
 

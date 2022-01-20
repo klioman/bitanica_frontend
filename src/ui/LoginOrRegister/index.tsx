@@ -1,6 +1,7 @@
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
 
+// ================================================:
 const LoginOrRegister: FC = () => {
 	return (
 		<div className="login-register-wrapper">

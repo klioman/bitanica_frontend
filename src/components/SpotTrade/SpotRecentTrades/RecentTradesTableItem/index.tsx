@@ -1,12 +1,13 @@
 /* eslint-disable @typescript-eslint/naming-convention */
-import useDecimals from 'hooks/useDecimals';
 import { FC } from 'react';
 import { useDispatch } from 'react-redux';
+import useDecimals from 'hooks/useDecimals';
 import { setTempOrderPrice } from 'redux/reducers/orders/reducer';
 import { getLocaleTimeFromTimestamp } from 'services/utils/dateAndTimeHelpers';
 import { fixedCropNumber } from 'services/utils/fixedCropNumber';
 import { IRecentTradesTableItemProps } from './types';
 
+// ================================================:
 const RecentTradesTableItem: FC<IRecentTradesTableItemProps> = ({ data }) => {
 	const { price, quantity, created_at, type } = data;
 	const dispatch = useDispatch();

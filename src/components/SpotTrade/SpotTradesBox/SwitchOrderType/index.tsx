@@ -5,6 +5,7 @@ import MarketOrder from '../MarketOrder';
 import StopLimitOrder from '../StopLimitOrder';
 import { ISwitchOrderTypeProps } from './types';
 
+// ================================================:
 const SwitchOrderType: FC<ISwitchOrderTypeProps> = ({ orderType, mode, asset }) => {
 	const balance = mode === 'Buy' ? asset?.buy?.balance : asset?.sell?.balance;
 

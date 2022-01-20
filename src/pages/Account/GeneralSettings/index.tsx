@@ -5,7 +5,7 @@ import { userSettingsRequest } from 'redux/reducers/settings/reducer';
 import Account from 'layouts/Account';
 import UserGeneralSettings from 'components/UserAccount/UserGeneralSettings';
 
-// ==========================================:
+// ================================================:
 const GeneralSettings: FC = () => {
 	const dispatch = useDispatch();
 

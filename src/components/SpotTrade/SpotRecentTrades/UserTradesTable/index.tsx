@@ -8,6 +8,7 @@ import Loader from 'ui/Loader';
 import UserTradesTableItem from '../UserTradesTableItem';
 import { IUserTradesTableProps } from './types';
 
+// ================================================:
 const UserTradesTable: FC<IUserTradesTableProps> = ({ data }) => {
 	const currentPair = useSelector(getCurrentPair);
 	const userTradesIsLoad = useSelector(getSpotUserTradesIsLoad);

@@ -6,6 +6,7 @@ import SpotTradeWithTradingPairs from './SpotTradeWithTradingPairs';
 import SpotTradeWithOrderBookAndTradingPairs from './SpotTradeWithOrderBookAndTradingPairs';
 import SpotTradeWithoutOrderBookAndTradingPairs from './SpotTradeWithoutOrderBookAndTradingPairs';
 
+// ================================================:
 const SpotTrade: FC = () => {
 	const workspaceSettings = useSelector(getWorkspaceSettings);
 

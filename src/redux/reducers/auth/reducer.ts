@@ -13,7 +13,7 @@ import {
 	IRegistrationPayload,
 } from './types';
 
-// ==========================================:
+// ================================================:
 export const initialState: IAuthStore = {
 	accessToken: null,
 	socketToken: null,
@@ -31,7 +31,7 @@ export const initialState: IAuthStore = {
 	emailResetConfirmTokenMessage: false,
 };
 
-// ==========================================:
+// ================================================:
 const auth = createSlice({
 	name: '@@auth',
 	initialState,

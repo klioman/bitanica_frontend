@@ -9,6 +9,7 @@ import { notificationContainer } from 'services/utils/notificationContainer';
 import { trimComment, trimAddress, trimTransactionHash } from 'services/utils/trimComment';
 import { ICryptoTableItemProps } from './types';
 
+// ================================================:
 const CryptoTableItem: FC<ICryptoTableItemProps> = ({ data }) => {
 	const handleTransactionUrlCopy = () => {
 		notificationContainer('Transaction url copied successfully!', 'info');

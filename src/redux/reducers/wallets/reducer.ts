@@ -9,7 +9,7 @@ import {
 	IWalletsStore,
 } from './types';
 
-// ==========================================:
+// ================================================:
 export const initialState: IWalletsStore = {
 	walletsList: null,
 	generateAddress: null,
@@ -19,7 +19,7 @@ export const initialState: IWalletsStore = {
 	walletsCryptoHistoryLoader: false,
 };
 
-// ==========================================:
+// ================================================:
 const wallets = createSlice({
 	name: '@@wallets',
 	initialState,

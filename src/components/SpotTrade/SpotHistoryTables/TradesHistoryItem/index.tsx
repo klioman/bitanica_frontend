@@ -7,6 +7,7 @@ import {
 import { transformPairCode } from 'services/utils/tradingPairHelpers';
 import { ITradesHistoryItemProps } from './types';
 
+// ================================================:
 const TradesHistoryItem: FC<ITradesHistoryItemProps> = ({ data }) => {
 	const {
 		created_at,

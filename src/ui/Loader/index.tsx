@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import { ILoader } from './types';
 
-// ==========================================:
+// ================================================:
 const Loader: FC<ILoader> = (props) => {
 	const { small } = props;
 

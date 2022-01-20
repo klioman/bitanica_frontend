@@ -9,6 +9,7 @@ import LoginOrRegister from 'ui/LoginOrRegister';
 import RecentTradesTable from './RecentTradesTable';
 import UserTrades from './UserTrades';
 
+// ================================================:
 const SpotRecentTrades: FC = () => {
 	const workspaceSettings = useSelector(getWorkspaceSettings);
 	const recentTrades = useSelector(getSpotRecentTrades);

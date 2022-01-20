@@ -14,6 +14,7 @@ import LoginOrRegister from 'ui/LoginOrRegister';
 import PercentRadioButtons from '../PercentRadioButtons';
 import { IMarketOrderProps } from './types';
 
+// ================================================:
 const MarketOrder: FC<IMarketOrderProps> = ({
 	mode,
 	assetToTradeCode,

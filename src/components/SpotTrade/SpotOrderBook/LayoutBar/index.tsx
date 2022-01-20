@@ -1,6 +1,7 @@
 import { FC } from 'react';
 import { ILayoutBarProps } from './types';
 
+// ================================================:
 const LayoutBar: FC<ILayoutBarProps> = ({ currentLayoutTab, handleChangeLayoutBar }) => {
 	return (
 		<div className="orderbook__sort">

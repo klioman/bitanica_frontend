@@ -3,7 +3,7 @@ import L from 'i18n-react';
 import { IHeaderDropdownList } from 'layouts-elements/Header/AuthHeader/types';
 import { IHeaderDropdown } from './types';
 
-// ==================================:
+// ================================================:
 const HeaderDropdown: FC<IHeaderDropdown> = (props) => {
 	const {
 		value,

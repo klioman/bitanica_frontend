@@ -21,7 +21,7 @@ import {
 	IOrdersHistoryData,
 } from './types';
 
-// ==========================================:
+// ================================================:
 export const initialState: ISpotTradeStore = {
 	orderBook: null,
 	orderBookLoader: false,
@@ -37,7 +37,7 @@ export const initialState: ISpotTradeStore = {
 	},
 };
 
-// ==========================================:
+// ================================================:
 const spotTrade = createSlice({
 	name: '@@spotTrade',
 	initialState,

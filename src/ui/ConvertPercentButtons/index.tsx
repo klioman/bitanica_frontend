@@ -1,6 +1,7 @@
 import { FC, useEffect, MouseEvent, useState } from 'react';
 import { IConvertPercentButtonsProps } from './types';
 
+// ==========================================:
 const ConvertPercentButtons: FC<IConvertPercentButtonsProps> = ({
 	countFrom,
 	percentButtonCountValue,

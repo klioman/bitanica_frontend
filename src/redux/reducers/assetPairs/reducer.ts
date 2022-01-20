@@ -7,7 +7,7 @@ import {
 	IAssetPairsStore,
 } from './types';
 
-// ==========================================:
+// ================================================:
 export const initialState: IAssetPairsStore = {
 	assetPairs: null,
 	assetPairsLoader: false,
@@ -15,7 +15,7 @@ export const initialState: IAssetPairsStore = {
 	assetPairsFeesAndLimitsLoader: false,
 };
 
-// ==========================================:
+// ================================================:
 const assetPairs = createSlice({
 	name: '@@assetPairs',
 	initialState,

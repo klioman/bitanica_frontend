@@ -2,13 +2,13 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { ISocketsStore } from './types';
 
-// ==========================================:
+// ================================================:
 export const initialState: ISocketsStore = {
 	isSocketConnection: false,
 	socketToken: null,
 };
 
-// ==========================================:
+// ================================================:
 const sockets = createSlice({
 	name: '@@sockets',
 	initialState,

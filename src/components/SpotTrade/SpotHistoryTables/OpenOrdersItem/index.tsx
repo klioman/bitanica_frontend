@@ -11,6 +11,7 @@ import { transformPairCode } from 'services/utils/tradingPairHelpers';
 import ConfirmDeletePopup from 'ui/ConfirmDeletePopup';
 import { IOpenOrdersItemProps } from './types';
 
+// ================================================:
 const OpenOrdersItem: FC<IOpenOrdersItemProps> = ({ data }) => {
 	const {
 		created_at,

@@ -2,7 +2,7 @@ import { ChangeEvent, FC, useEffect, useMemo, useRef, useState } from 'react';
 import { IWalletItem } from 'redux/reducers/wallets/types';
 import { IConvertDropdownProps } from './types';
 
-// ==================================:
+// ================================================:
 const ConvertDropdown: FC<IConvertDropdownProps> = (props) => {
 	const { value, options, onChange } = props;
 

@@ -11,6 +11,7 @@ import FilteredBar from '../FilteredBar';
 import TradesHistoryItem from '../TradesHistoryItem';
 import { ITradeHistoryProps } from './types';
 
+// ================================================:
 const TradesHitory: FC<ITradeHistoryProps> = ({ otherPairsIsHide }) => {
 	const tradesHistory = useSelector(getSpotUserTrades);
 	const tradesHistoryIsLoad = useSelector(getSpotUserTradesIsLoad);

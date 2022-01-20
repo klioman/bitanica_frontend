@@ -1,7 +1,7 @@
-import SocketWithTopicConnectWrapper from 'components/SocketWithTopicConnectWrapper';
 import { FC, MouseEvent, useMemo, useState } from 'react';
 import L from 'i18n-react';
 import { useSelector } from 'react-redux';
+import SocketWithTopicConnectWrapper from 'components/SocketWithTopicConnectWrapper';
 import { getSpotOrderBook } from 'redux/reducers/spotTrade/selectors';
 import { getCurrentPair, getWorkspaceSettings } from 'redux/reducers/tradingSettings/selectors';
 import { filteredOrderbookDataByTab } from 'services/utils/orderBookTradingDataHelepers';
@@ -10,6 +10,7 @@ import LastTradeBlock from './LastTradeBlock';
 import LayoutBar from './LayoutBar';
 import OrderBookTable from './OrderBookTable';
 
+// ================================================:
 const SpotOrderBook: FC = () => {
 	const workspaceSettings = useSelector(getWorkspaceSettings);
 	const orderBookList = useSelector(getSpotOrderBook);

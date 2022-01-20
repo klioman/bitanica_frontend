@@ -4,6 +4,7 @@ import SpotMarketHeader from '../SpotMarketHeader';
 import SpotOrderBook from '../SpotOrderBook';
 import SpotTradesBox from '../SpotTradesBox';
 
+// ================================================:
 const SpotTradeWithOrderBook = () => {
 	return (
 		<div className="content-inner">

@@ -4,6 +4,7 @@ import { useSelector } from 'react-redux';
 import { getAssetsList } from 'redux/reducers/assets/selectors';
 import { IAssetBarProps } from './types';
 
+// ================================================:
 const AssetBar: FC<IAssetBarProps> = ({
 	currentAssetTab,
 	handleFilteredAssetPairs,

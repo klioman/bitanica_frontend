@@ -14,6 +14,7 @@ import FilteredBar from '../FilteredBar';
 import OrdersHistoryItem from '../OrdersHistoryItem';
 import { IOrdersHistoryProps } from './types';
 
+// ================================================:
 const OrdersHistory: FC<IOrdersHistoryProps> = ({ otherPairsIsHide }) => {
 	const ordersHistory = useSelector(getSpotUserOrdersHistory);
 	const ordersHistoryIsLoad = useSelector(getSpotUserOrdersHistoryIsLoad);

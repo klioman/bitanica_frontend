@@ -3,7 +3,7 @@ import { useLocation } from 'react-router';
 import { Link } from 'react-router-dom';
 import logo from 'assets/img/logo.png';
 
-// ==========================================:
+// ================================================:
 const AppLogo: FC = () => {
 	const location = useLocation();
 

@@ -1,10 +1,11 @@
+import { FC, MouseEvent, useState } from 'react';
+import { Link } from 'react-router-dom';
 import ConvertHistory from 'components/ConvertHistory';
 import DepositWithdrawalFiatHistory from 'components/DepositWithdrawalFiatHistory';
 import TransferHistory from 'components/TransferHistory';
-import { FC, MouseEvent, useState } from 'react';
-import { Link } from 'react-router-dom';
 import CryptoHistory from './CryptoHistory';
 
+// ================================================:
 const TransatcionsHistory: FC = () => {
 	const [currentHistoryType, setCurrentHistoryType] = useState('crypto');
 

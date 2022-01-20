@@ -13,6 +13,7 @@ import Loader from 'ui/Loader';
 import OpenOrdersItem from '../OpenOrdersItem';
 import { IOpenOrdersProps } from './types';
 
+// ================================================:
 const OpenOrders: FC<IOpenOrdersProps> = ({ otherPairsIsHide }) => {
 	const openOrders = useSelector(getSpotUserOpenOrders);
 	const openOrdersIsLoad = useSelector(getSpotUserOpenOrdersIsLoad);

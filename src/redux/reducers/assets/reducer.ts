@@ -1,13 +1,13 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { IAssetsResponsePayload, IAssetsStore } from './types';
 
-// ==========================================:
+// ================================================:
 export const initialState: IAssetsStore = {
 	assetsList: null,
 	assetsLoader: false,
 };
 
-// ==========================================:
+// ================================================:
 const assets = createSlice({
 	name: '@@assets',
 	initialState,

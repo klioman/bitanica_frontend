@@ -1,11 +1,12 @@
 import { FC, useMemo } from 'react';
 import { useSelector } from 'react-redux';
-import { getAssetPairsIsLoad, getAssetPairsList } from 'redux/reducers/assetPairs/selectors';
 import L from 'i18n-react';
+import { getAssetPairsIsLoad, getAssetPairsList } from 'redux/reducers/assetPairs/selectors';
 import Loader from 'ui/Loader';
 import PairsTableItem from '../PairsTableItem';
 import { IPairsTableProps } from './types';
 
+// ================================================:
 const PairsTable: FC<IPairsTableProps> = ({ workspaceSettings, searchData, currentAssetData }) => {
 	const { orderBookSection, tradingPairsSection } = workspaceSettings;
 	const assetPairsList = useSelector(getAssetPairsList);
