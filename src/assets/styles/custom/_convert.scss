@@ -1,0 +1,36 @@
+.convert-input-icon {
+	top: 31px;
+	right: 25px;
+	display: block;
+}
+
+.convert-enter-value__field {
+	margin-bottom: 5px;
+}
+
+.convert-loader-wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 5;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+.convert-enter-value__field {
+	display: block;
+}
+
+.convert-enter-value-field-box {
+	display: flex;
+	position: relative;
+	align-items: stretch;
+}
+
+.convert-input-item--enter-value-error {
+	border: 1px solid #f44336;
+}

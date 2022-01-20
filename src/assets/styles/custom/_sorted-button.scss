@@ -1,0 +1,9 @@
+.sorted-button-custom.active {
+	color: #00da83;
+}
+
+.sorted-button-custom-arrow.active {
+	&::before {
+		color: #00da83;
+	}
+}

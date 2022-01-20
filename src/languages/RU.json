@@ -1,0 +1,373 @@
+{
+	"Base": {
+		"Modals": {
+			"Captcha": {
+				"platform": "Bitanica",
+				"slide_text": "Сдвиньте, чтобы завершить загадку",
+				"text": "Залоговые фьючерсы на USDT упрощают торговлю"
+			},
+			"ConfirmDeletePopup": {
+				"yes_button": "Да, удалить",
+				"no_button": "Нет"
+			}
+		}
+	},
+	"HomePage": {
+		"BuySellCrypto": {
+			"title": "Купить и продать криптовалюту за считанные минуты",
+			"subtitle": "Присоединяйтесь к крупнейшей в мире криптобирже"
+		}
+	},
+	"LoginPage": {
+		"login_page_title": "Авторизоваться",
+		"login_btn": "Авторизоваться"
+	},
+	"ForgotPasswordPage": {
+		"forgot_password_page_title": "Забыли пароль"
+	},
+	"RegistrPage": {
+		"registr_page_title": "Регистрация",
+		"registr_btn": "Регистрация"
+	},
+	"DepositCrypto": {
+		"deposit_crypto_page_title": "Добавить криптовалюту"
+	},
+	"WithdrawCrypto": {
+		"withdraw_crypto_page_title": "Вывести криптовалюту"
+	},
+	"EmailConfirm": {
+		"EmailConfirmError": {
+			"email_confirm_error_title": "Ваш адрес электронной почты уже успешно подтвержден!",
+			"email_confirm_error_button": "Перейти на страницу входа",
+			"email_confirm_error_send_title": "Письмо было успешно отправлено на указанный вами адрес электронной почты. Пожалуйста, проверьте свою электронную почту!",
+			"email_confirm_error_exp_title": "Ошибка подтверждения",
+			"email_confirm_error_exp": "К сожалению, произошла ошибка. Нажмите кнопку ниже, чтобы снова отправить электронное письмо с подтверждением.",
+			"email_confirm_error_send_btn": "Отправь снова"
+		},
+		"EmailConfirmSuccess": {
+			"email_confirm_success_title": "Ваш адрес электронной почты уже успешно подтвержден!",
+			"email_confirm_completed": "Регистрация завершена",
+			"email_confirm_completed_text": "Регистрация успешно завершена.",
+			"email_confirm_success_btn": "Перейти на страницу входа"
+		}
+	},
+	"IPConfirmation": {
+		"ip_confirmation_title": "Подтверждение IP",
+		"ip_confirmation_success_confirm": "Ваш IP был успешно проверен!",
+		"ip_confirmation_code": "Пожалуйста, введите свой код подтверждения!",
+		"ip_confirmation_text": "Вы вошли в систему с другого IP-адреса. Мы отправили на вашу почту код подтверждения. Пожалуйста, введите код ниже",
+		"ip_confirmation_field_email": "Адрес электронной почты",
+		"ip_confirmation_submit": "Отправить"
+	},
+	"Forms": {
+		"LoginForm": {
+			"login_form_title": "Логин аккаунта",
+			"login_form_subtitle": "Добро пожаловать обратно! Авторизуйтесь со своей электронной почты",
+			"login_google2fa": "Введите код Google Authenticator (2FA)",
+			"login_forgot_password": "Забыли пароль?",
+			"login_submit_btn": "Авторизоваться",
+			"login_support": "Служба поддержки",
+			"login_field_email": "Адрес электронной почты",
+			"login_field_password": "Пароль"
+		},
+		"ForgotPassword": {
+			"forgot_password_link": "Назад",
+			"forgot_password_title": "Забыли пароль",
+			"forgot_password_text": "Пожалуйста, введите свой адрес электронной почты, чтобы получить код сброса пароля",
+			"forgot_password_btn_submit": "Отправить",
+			"forgot_password_field_email": "Адрес электронной почты"
+		},
+		"RegistrForm": {
+			"registr_form_title": "Создать аккаунт",
+			"registr_form_subtitle": "Пожалуйста, введите ваши личные данные",
+			"registr_form_field_email": "Электронное письмо",
+			"registr_form_field_password": "Пароль",
+			"registr_form_field_confirm_password": "Подтвердите пароль",
+			"registr_form_agree_terms": "Я согласен с",
+			"registr_form_agree_terms_conditions": "Условия и положения",
+			"registr_form_agree_terms_and": "и с",
+			"registr_form_agree_terms_privat": "Политикой конфиденциальности",
+			"registr_form_agree_width": "Я согласен с",
+			"registr_form_agree_width_cookie": "Политикой использования файлов cookie",
+			"registr_form_submit_btn": "Зарегистрироваться"
+		},
+		"ChangePassForm": {
+			"change_pass_form_title": "Изменить пароль",
+			"change_pass_form_btn": "Изменить пароль",
+			"change_pass_form_field_old_password": "Введите свой пароль",
+			"change_pass_form_field_password": "Новый пароль",
+			"change_pass_form_field_confirm_password": "Подтвердите пароль"
+		},
+		"Google2fa": {
+			"google_2fa_form_title": "Код 2FA из приложения Authenticator",
+			"google_2fa_form_field_text": "Введите 6-значный код 2FA",
+			"google_2fa_form_btn_enable": "Включить",
+			"google_2fa_form_btn_disable": "Запрещать",
+			"google_2fa_form_btn_cancel": "Отмена"
+		}
+	},
+	"Account": {
+		"AccountSettings": {
+			"general_account_settings": "Общие настройки аккаунта",
+			"changing_user_data": "Данные пользователя"
+		},
+		"TwoFactorAuth": {
+			"two_factor_auth_page_app_title": "Двухфакторная аутентификация (2FA)",
+			"two_factor_auth_page_title": "Двухфакторная аутентификация",
+			"two_factor_auth_enable_title": "Включить двухфакторную аутентификацию",
+			"two_factor_auth_enable_text": "For your security, we strongly recommend enabling 2FA on your account. After that, you will need to enter a one-time 6-digit code each time you are logging into your account, withdrawing funds or changing the password.",
+			"two_factor_auth_enable_btn": "Включить 2FA",
+			"two_factor_auth_loading": "Загрузка...",
+			"two_factor_auth_disable_title": "Отключить двухфакторную аутентификацию",
+			"two_factor_auth_disable_btn": "Отключить 2FA",
+			"two_factor_step01_title": "Скачать приложение 2FA",
+			"two_factor_step01_text": "Вам следует загрузить и установить приложение-аутентификатор, такое как Google Authenticator или Authy, на свое мобильное устройство. Это приложение сгенерирует одноразовые 6-значные коды доступа, которые необходимы для входа в вашу учетную запись.",
+			"two_factor_step02_title": "Сохраните резервный ключ 2FA и отсканируйте QR-код",
+			"two_factor_step02_text": "Пожалуйста, сделайте резервную копию ключа восстановления 2FA в какое-нибудь офлайн-хранилище, запишите на бумаге. Если ваше мобильное устройство потеряно, украдено или стерто, вам понадобится этот ключ для восстановления доступа 2FA.",
+			"two_factor_step02_input_label": "Резервный / Cекретный ключ",
+			"two_factor_step02_message": "Запишите или распечатайте копию указанного выше ключа и храните ее в надежном месте.",
+			"two_factor_step03_title": "Подтвердите активацию 2FA"
+		}
+	},
+	"Menu": {
+		"Select": "Выбирать",
+		"Wallet": {
+			"wallet": "Кошелек",
+			"fiat_and_spot": "Fiat и Spot",
+			"p2p": "P2P",
+			"margin": "Допуск",
+			"transaction_history": "История транзакций"
+		},
+		"Account": {
+			"account": "Аккаунт",
+			"account_settings": "Настройки аккаунта",
+			"log_out": "Выйти"
+		}
+	},
+	"Trade": {
+		"Spot": {
+			"SpotTradeBox": {
+				"spot_trading": "Спотовая торговля",
+				"margin_trading": "Маржинальная торговля",
+				"buy_button": "Купить",
+				"sell_button": "Продать",
+				"limit_order_name": "Лимит",
+				"market_order_name": "Маркет",
+				"stop_limit_order_name": "Стоп-лимит",
+				"BuySellWrapper": {
+					"available_balance": "Доступный баланс"
+				},
+				"LimitOrder": {
+					"price_field_name": "Цена",
+					"amount_field_name": "Количество",
+					"total_field_name": "Всего",
+					"max_amount_error_text": "Максимальное количество",
+					"min_amount_error_text": "Минимальное количество",
+					"amount_available_balance_error_text": "Сумма превышает ваш доступный баланс",
+					"total_error_text": "Общее количество превышает ваш доступный баланс"
+				},
+				"MarketOrder": {
+					"amount_field_name": "Количество",
+					"max_amount_error_text": "Максимальное количество",
+					"min_amount_error_text": "Минимальное количество"
+				},
+				"StopLimitOrder": {
+					"stop_field_name": "Стоп",
+					"limit_field_name": "Лимит",
+					"amount_field_name": "Количество",
+					"total_field_name": "Всего",
+					"max_amount_error_text": "Максимальное количество",
+					"min_amount_error_text": "Минимальное количество",
+					"amount_available_balance_error_text": "Сумма превышает ваш доступный баланс",
+					"total_error_text": "Общее количество превышает ваш доступный баланс"
+				},
+				"OrderButtons": {
+					"buy_button": "Купить",
+					"sell_button": "Продать"
+				}
+			},
+			"SpotRecentTrades": {
+				"market_trade_tab_name": "Сделки на рынке",
+				"user_trade_tab_name": "Мои сделки",
+				"RecentTradesColumnTitles": {
+					"price_name": "Цена",
+					"amount_name": "Количество",
+					"time_name": "Время"
+				},
+				"UserTradesColumnTitles": {
+					"price_name": "Цена",
+					"amount_name": "Количество",
+					"time_name": "Время"
+				}
+			},
+			"SpotOrderBook": {
+				"OrderBookColumnTitles": {
+					"price_name": "Цена",
+					"amount_name": "Количество",
+					"total_name": "Всего"
+				}
+			},
+			"SpotPairs": {
+				"PairsTableColumnTitles": {
+					"pair_name": "Пара",
+					"price_name": "Цена",
+					"change_name": "Изменение"
+				},
+				"no_pairs_data": "У вас нет данных по парам.",
+				"all_pairs_title": "Все",
+				"search_pair_placeholder_text": "Поиск"
+			},
+			"SpotMarketHeader": {
+				"change_24_text": "Изменение за 24ч",
+				"high_24_text": "Макс 24ч",
+				"low_24_text": "Мин за 24ч",
+				"volume_24_text": "Объем 24ч",
+				"workspace_settings_button": "Настройки рабочего пространства"
+			},
+			"SpotMarketSettingsModal": {
+				"modal_title": "Настройки рабочего пространства",
+				"modal_subtitle_001": "Здесь вы можете настроить спотовую страницу.",
+				"modal_subtitle_002": "Вы можете показать или скрыть нужные разделы.",
+				"modal_orderbook_switched_text": "Блок книга ордеров",
+				"modal_asset_pairs_switched_text": "Блок торговые пары",
+				"modal_cancel_button": "Отмена",
+				"modal_save_button": "Сохранить"
+			},
+			"SpotHistoryTables": {
+				"open_orders_tab_name": "Открытые ордера",
+				"order_history_tab_name": "История ордеров",
+				"trade_history_tab_name": "История сделок",
+				"hide_other_pairs_checkbox": "Скрыть другие пары",
+				"OpenOrdersTable": {
+					"date_column_name": "Дата",
+					"pair_column_name": "Пара",
+					"type_column_name": "Тип",
+					"side_column_name": "Сторона",
+					"average_column_name": "Средняя цена",
+					"price_column_name": "Цена",
+					"amount_column_name": "Количество",
+					"filled_column_name": "Заполнено",
+					"total_column_name": "Всего",
+					"trigger_conditions_column_name": "Условия активации",
+					"cancel_all_button": "Отменить все",
+					"cancel_button": "Отменить",
+					"no_open_orders_text": "У вас нет открытых ордеров.",
+					"confirm_delete_all_orders_title": "Вы хотите отменить все ордера?",
+					"confirm_delete_all_body_message": "Все ордера будут отменены без возможности возврата!",
+					"confirm_delete_order_title": "Вы хотите отменить ордер?",
+					"confirm_delete_order_body_message": "Текущий ордер будет отменен без возможности возврата!"
+				},
+				"OrdersHistoryTable": {
+					"date_column_name": "Дата",
+					"pair_column_name": "Пара",
+					"type_column_name": "Тип",
+					"side_column_name": "Сторона",
+					"average_column_name": "Средняя цена",
+					"price_column_name": "Цена",
+					"amount_column_name": "Количество",
+					"filled_column_name": "Заполнено",
+					"total_column_name": "Всего",
+					"status_column_name": "Статус",
+					"no_orders_history_text": "У вас нет истории ордеров."
+				},
+				"TradesHitoryTable": {
+					"date_column_name": "Дата",
+					"pair_column_name": "Пара",
+					"side_column_name": "Сторона",
+					"price_column_name": "Цена",
+					"executed_column_name": "Исполнен",
+					"fee_column_name": "Комиссия",
+					"total_column_name": "Сумма сделки",
+					"no_trades_history_text": "У вас нет истории сделок."
+				}
+			}
+		}
+	},
+	"Errors": {
+		"error": "Ошибка!",
+		"the_email_has_already_been_taken": "Электронная почта уже занята!",
+		"successful": "Успешно!",
+		"information": "Информация",
+		"server_error": "Ошибка сервера. Пожалуйста, повторите попытку позже...",
+		"too_many_requests": "Слишком много запросов!",
+		"invalid_credentials": "Неверные учетные данные!",
+		"invalid_totp_code": "Неверный код Google Authenticator!",
+		"the_totp_field_is_required": "Пожалуйста, введите код Google Authenticator!",
+		"registered_successfully": "Вы успешно зарегистрировались. Проверьте вашу электронную почту!",
+		"check_the_email": "Проверьте электронную почту для получения инструкций!",
+		"email_confirmed": "Электронная почта успешно подтверждена!",
+		"email_already_confirmed": "Электронная почта уже подтверждена!",
+		"the_network_field_is_required": "Поле сети обязательно для заполнения!",
+		"wallet_service_error": "Ошибка службы кошелька!",
+		"password_successfully_changed": "Ваш пароль был успешно изменен!",
+		"google_2fa_activated": "Google 2fa успешно активирован!",
+		"google_2fa_turned_off": "Google 2fa успешно отключился!",
+		"websockets_error": "Ошибка веб-сокетов",
+		"session_has_ended": "Сессия закончилась. Пожалуйста, войдите еще раз!",
+		"required_email": "Пожалуйста, введите свой адрес электронной почты!",
+		"email_format": "Неверный формат электронной почты!",
+		"email_max_characters": "Максимальное количество символов должно быть не более 60!",
+		"password_required": "Пожалуйста введите ваш пароль!",
+		"password_validation": "Пароль должен состоять не менее чем из 8 символов и включать 1 заглавную букву, 1 строчную букву, 1 цифру и 1 специальный символ.",
+		"password_max_length": "Максимальное количество символов должно быть не более 25!",
+		"passwords_match": "Пароли должны совпадать!",
+		"confirm_password_required": "Пожалуйста, введите ваш пароль для подтверждения!",
+		"accept_terms": "Вы должны согласиться с условиями и политикой конфиденциальности!",
+		"temporary_code": "Пожалуйста, введите свой временный код!",
+		"cookie_policy": "Вы должны согласиться с политикой использования файлов cookie!",
+		"recaptcha": "Пожалуйста, подтвердите, что вы человек!",
+		"google2fa": "Это поле обязательно к заполнению!",
+		"email_not_confirmed": "Электронная почта не подтверждена!",
+		"user_blocked": "Пользователь заблокирован!",
+		"ip_not_verified": "IP не проверен!",
+		"token_not_provided": "Токен не предоставлен!",
+		"token_expired": "Срок действия токена истек!",
+		"token_invalid": "Токен недействителен!",
+		"error_active_token_not_found": "Ошибка! Активный токен не найден!",
+		"token_incorrect": "Неверный токен!",
+		"create_order_unavailable": "Создания ордера недоступено!",
+		"empty_order_book": "Пустая книга заказов!",
+		"min_quantity_limit_exceeded": "Превышен предел минимального количества!",
+		"invalid_verification_code": "Неверный проверочный код!",
+		"this_is_the_same_password": "Это тот же пароль!",
+		"error_incorrect_old_password": "Ошибка! Неверный старый пароль!",
+		"bank_account_updated": "Банковский счет обновлен!",
+		"bank_account_deleted": "Банковский счет удален!",
+		"cant_send_to_itself": "Не могу отправить себе!",
+		"already_sent_invite": "Приглашение уже отправлено!",
+		"email_sent_success": "Письмо отправлено успешно!",
+		"2fa_already_enabled": "2fa уже включена!",
+		"2fa_already_disabled": "2fa уже отключен!",
+		"invalid_TOTP_code": "Неверный код TOTP!",
+		"user_already_verified": "Пользователь уже проверен!",
+		"no_document_file_present": "Файл с документом отсутствует!",
+		"user_already_rejected": "Пользователь уже отклонен!",
+		"user_already_approved": "Пользователь уже одобрен!",
+		"user_not_verified": "Пользователь не проверен!",
+		"error_create_admin": "Ошибка создания админа!",
+		"error_update_admin": "Ошибка обновления админа!",
+		"You_try_delete_yourself": "Вы пытаетесь удалить себя!",
+		"same_password_as_previous": "Тот же пароль, что и предыдущий!",
+		"settings_not_found": "Настройки не найдены!",
+		"asset_not_found": "Актив не найден!",
+		"bank_settings_not_updated": "Настройки банка не обновлены!",
+		"unauthenticated": "Не аутентифицирован!",
+		"model_not_found": "Модель не найдена!",
+		"unauthorized": "Неавторизованный!",
+		"you_need_to_verify_your_account": "Вам необходимо подтвердить свой аккаунт!",
+		"http_not_found": "http не найден!",
+		"the_selected_token_is_invalid": "Выбранный токен недействителен!",
+		"the_selected_email_is_invalid": "Выбран неверный адрес электронной почты!",
+		"the_device_token_field_is_required": "Поле токена устройства обязательно!",
+		"the_os_name_field_is_required": "Поле токена устройства обязательно!",
+		"the_os_version_field_is_required": "Поле версии ОС обязательно!",
+		"device_not_verified": "Устройство не проверено!",
+		"device_already_verified": "Устройство уже проверено!",
+		"not_enough_funds": "Недостаточно средств!",
+		"not_enough_money": "Недостаточно средств!",
+		"invalid_email_code": "Неверный электронный код!",
+		"the_code_must_not_be_greater_than6_characters": "Код не должен содержать более 6 символов!",
+		"the_code_field_is_required": "Поле кода обязательно для заполнения!",
+		"the_address_field_is_required": "Поле адреса обязательно для заполнения!"
+	}
+}

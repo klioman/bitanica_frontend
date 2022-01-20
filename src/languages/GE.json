@@ -1,0 +1,373 @@
+{
+	"Base": {
+		"Modals": {
+			"Captcha": {
+				"platform": "Bitanica",
+				"slide_text": "გაასრიალეთ თავსატეხის დასასრულებლად",
+				"text": "ფიუჩერსული USDT გირაო ვაჭრობას მარტივს ხდის"
+			},
+			"ConfirmDeletePopup": {
+				"yes_button": "დიახ, წაშალეთ",
+				"no_button": "არა"
+			}
+		}
+	},
+	"HomePage": {
+		"BuySellCrypto": {
+			"title": "იყიდეთ და გაყიდეთ Crypto წუთებში",
+			"subtitle": "შეუერთდით მსოფლიოს უდიდეს კრიპტო ბირჟას"
+		}
+	},
+	"LoginPage": {
+		"login_page_title": "Შესვლა",
+		"login_btn": "Შესვლა"
+	},
+	"ForgotPasswordPage": {
+		"forgot_password_page_title": "Პაროლი დაგავიწყდა",
+		"registr_btn": "რეგისტრაცია"
+	},
+	"RegistrPage": {
+		"registr_page_title": "რეგისტრაცია"
+	},
+	"DepositCrypto": {
+		"deposit_crypto_page_title": "კრიპტო დეპონირება"
+	},
+	"WithdrawCrypto": {
+		"withdraw_crypto_page_title": "კრიპტოს ამოღება"
+	},
+	"EmailConfirm": {
+		"EmailConfirmError": {
+			"email_confirm_error_title": "თქვენი ელფოსტა უკვე წარმატებით დადასტურდა!",
+			"email_confirm_error_button": "გადადით შესვლის გვერდზე",
+			"email_confirm_error_send_title": "წერილი წარმატებით გაიგზავნა თქვენ მიერ მითითებულ მეილზე. Გთხოვთ შეამოწმოთ თქვენი მეილი!",
+			"email_confirm_error_exp_title": "დადასტურების შეცდომა",
+			"email_confirm_error_exp": "უკაცრავად, მოხდა შეცდომა. დააწკაპუნეთ ქვემოთ მოცემულ ღილაკზე, რათა კვლავ გაგზავნოთ დამადასტურებელი ელ.წერილი",
+			"email_confirm_error_send_btn": "Ხელახლა გაგზავნა"
+		},
+		"EmailConfirmSuccess": {
+			"email_confirm_success_title": "თქვენი ელფოსტა უკვე წარმატებით დადასტურდა!",
+			"email_confirm_completed": "რეგისტრაცია დასრულებულია",
+			"email_confirm_completed_text": "რეგისტრაცია წარმატებით დასრულდა.",
+			"email_confirm_success_btn": "გადადით შესვლის გვერდზე"
+		}
+	},
+	"IPConfirmation": {
+		"ip_confirmation_title": "IP დადასტურება",
+		"ip_confirmation_success_confirm": "თქვენი IP წარმატებით დადასტურდა!",
+		"ip_confirmation_code": "გთხოვთ, შეიყვანოთ თქვენი დამადასტურებელი კოდი!",
+		"ip_confirmation_text": "თქვენ შესული ხართ სხვა IP მისამართიდან. ჩვენ გამოგიგზავნეთ დამადასტურებელი კოდი თქვენს მეილზე. გთხოვთ შეიყვანოთ ქვემოთ მოცემული კოდი",
+		"ip_confirmation_field_email": "Ელექტრონული მისამართი",
+		"ip_confirmation_submit": "გაგზავნა"
+	},
+	"Forms": {
+		"LoginForm": {
+			"login_form_title": "Ანგარიშზე შესვლა",
+			"login_form_subtitle": "Კეთილი იყოს თქვენი დაბრუნება! შედით თქვენი ელ.ფოსტით",
+			"login_google2fa": "შეიყვანეთ Google Authenticator Code (2FA)",
+			"login_forgot_password": "პაროლი დაგავიწყდა?",
+			"login_submit_btn": "Შესვლა",
+			"login_support": "მხარდაჭერა",
+			"login_field_email": "Ელექტრონული მისამართი",
+			"login_field_password": "პაროლი"
+		},
+		"ForgotPassword": {
+			"forgot_password_link": "უკან",
+			"forgot_password_title": "Პაროლი დაგავიწყდა",
+			"forgot_password_text": "გთხოვთ, შეიყვანოთ თქვენი ელფოსტის მისამართი, რათა მიიღოთ პაროლის გადატვირთვის კოდი",
+			"forgot_password_btn_submit": "გაგზავნა",
+			"forgot_password_field_email": "Ელექტრონული მისამართი"
+		},
+		"RegistrForm": {
+			"registr_form_title": "Შექმენით ანგარიში",
+			"registr_form_subtitle": "გთხოვთ შეიყვანოთ თქვენი პირადი მონაცემები",
+			"registr_form_field_email": "ფოსტა",
+			"registr_form_field_password": "პაროლი",
+			"registr_form_field_confirm_password": "Პაროლის დადასტურება",
+			"registr_form_agree_terms": "ვეთანხმები",
+			"registr_form_agree_terms_conditions": "წესები და პირობები",
+			"registr_form_agree_terms_and": "და",
+			"registr_form_agree_terms_privat": "Კონფიდენციალურობის პოლიტიკა",
+			"registr_form_agree_width": "ვეთანხმები",
+			"registr_form_agree_width_cookie": "ქუქიების პოლიტიკა",
+			"registr_form_submit_btn": "Შექმენი ანგარიში"
+		},
+		"ChangePassForm": {
+			"change_pass_form_title": "Პაროლის შეცვლა",
+			"change_pass_form_btn": "Პაროლის შეცვლა",
+			"change_pass_form_field_old_password": "Შეიყვანეთ თქვენი პაროლი",
+			"change_pass_form_field_password": "Ახალი პაროლი",
+			"change_pass_form_field_confirm_password": "Პაროლის დადასტურება"
+		},
+		"Google2fa": {
+			"google_2fa_form_title": "2FA კოდი Authenticator აპლიკაციიდან",
+			"google_2fa_form_field_text": "შეიყვანეთ 6-ნიშნა 2FA კოდი",
+			"google_2fa_form_btn_enable": "ჩართვა",
+			"google_2fa_form_btn_disable": "გამორთვა",
+			"google_2fa_form_btn_cancel": "გაუქმება"
+		}
+	},
+	"Account": {
+		"AccountSettings": {
+			"general_account_settings": "ნგარიშის ზოგადი პარამეტრები",
+			"changing_user_data": "Მომხმარებლის მონაცემები"
+		},
+		"TwoFactorAuth": {
+			"two_factor_auth_page_app_title": "ორფაქტორიანი ავთენტიფიკაცია (2FA)",
+			"two_factor_auth_page_title": "ორფაქტორიანი ავთენტიფიკაცია",
+			"two_factor_auth_enable_title": "ჩართეთ ორფაქტორიანი ავთენტიფიკაცია",
+			"two_factor_auth_enable_text": "For your security, we strongly recommend enabling 2FA on your account. After that, you will need to enter a one-time 6-digit code each time you are logging into your account, withdrawing funds or changing the password.",
+			"two_factor_auth_enable_btn": "ჩართეთ 2FA",
+			"two_factor_auth_loading": "Ჩატვირთვა...",
+			"two_factor_auth_disable_title": "გამორთეთ ორფაქტორიანი ავთენტიფიკაცია",
+			"two_factor_auth_disable_btn": "გამორთეთ 2FA",
+			"two_factor_step01_title": "ჩამოტვირთეთ 2FA აპლიკაცია",
+			"two_factor_step01_text": "You should download and install an authenticator application, such as Google Authenticator or Authy, on your mobile device. This app will generate one-time 6-digit access codes, which are required for logging into your account.",
+			"two_factor_step02_title": "შეინახეთ 2FA სარეზერვო გასაღები და დაასკანირეთ QR კოდი",
+			"two_factor_step02_text": "გთხოვთ, შექმენით თქვენი 2FA აღდგენის გასაღების სარეზერვო ასლი ოფლაინ საცავში, ჩაწერეთ ფურცელზე. თუ თქვენი მობილური მოწყობილობა დაიკარგება, მოიპარეს ან წაიშლება, ეს გასაღები დაგჭირდებათ თქვენი 2FA წვდომის აღსადგენად.",
+			"two_factor_step02_input_label": "სარეზერვო / საიდუმლო გასაღები",
+			"two_factor_step02_message": "გთხოვთ, ჩაწერეთ ან დაბეჭდეთ ზემოთ მოცემული გასაღების ასლი და უსაფრთხოდ შეინახეთ.",
+			"two_factor_step03_title": "დაადასტურეთ 2FA გააქტიურება"
+		}
+	},
+	"Menu": {
+		"Select": "აირჩიეთ",
+		"Wallet": {
+			"wallet": "საფულე",
+			"fiat_and_spot": "Fiat და Spot",
+			"p2p": "P2P",
+			"margin": "ზღვარი",
+			"transaction_history": "ტრანზაქციების ისტორია"
+		},
+		"Account": {
+			"account": "ანგარიში",
+			"account_settings": "Ანგარიშის პარამეტრები",
+			"log_out": "გასვლა"
+		}
+	},
+	"Trade": {
+		"Spot": {
+			"SpotTradeBox": {
+				"spot_trading": "ადგილზე ვაჭრობა",
+				"margin_trading": "მარჟის ვაჭრობა",
+				"buy_button": "იყიდე",
+				"sell_button": "გაყიდე",
+				"limit_order_name": "Ზღვარი",
+				"market_order_name": "ბაზარი",
+				"stop_limit_order_name": "გაჩერება-ლიმიტი",
+				"BuySellWrapper": {
+					"available_balance": "ხელმისაწვდომი ბალანსი"
+				},
+				"LimitOrder": {
+					"price_field_name": "ფასი",
+					"amount_field_name": "თანხა",
+					"total_field_name": "სულ",
+					"max_amount_error_text": "მაქსიმალური თანხა",
+					"min_amount_error_text": "მინიმალური თანხა",
+					"amount_available_balance_error_text": "თანხა მეტია თქვენს ხელმისაწვდომ ბალანსზე",
+					"total_error_text": "ჯამი მეტია თქვენს ხელმისაწვდომ ბალანსზე"
+				},
+				"MarketOrder": {
+					"amount_field_name": "თანხა",
+					"max_amount_error_text": "მაქსიმალური თანხა",
+					"min_amount_error_text": "მინიმალური თანხა"
+				},
+				"StopLimitOrder": {
+					"stop_field_name": "სტოპრ",
+					"limit_field_name": "Ზღვარი",
+					"amount_field_name": "თანხა",
+					"total_field_name": "სულ",
+					"max_amount_error_text": "მაქსიმალური თანხა",
+					"min_amount_error_text": "მინიმალური თანხა",
+					"amount_available_balance_error_text": "თანხა მეტია თქვენს ხელმისაწვდომ ბალანსზე",
+					"total_error_text": "ჯამი მეტია თქვენს ხელმისაწვდომ ბალანსზე"
+				},
+				"OrderButtons": {
+					"buy_button": "იყიდე",
+					"sell_button": "გაყიდე"
+				}
+			},
+			"SpotRecentTrades": {
+				"market_trade_tab_name": "საბაზრო ვაჭრობა",
+				"user_trade_tab_name": "ჩემი გარიგებები",
+				"RecentTradesColumnTitles": {
+					"price_name": "ფასი",
+					"amount_name": "თანხა",
+					"time_name": "დრო"
+				},
+				"UserTradesColumnTitles": {
+					"price_name": "ფასი",
+					"amount_name": "თანხა",
+					"time_name": "დრო"
+				}
+			},
+			"SpotOrderBook": {
+				"OrderBookColumnTitles": {
+					"price_name": "ფასი",
+					"amount_name": "თანხა",
+					"total_name": "სულ"
+				}
+			},
+			"SpotPairs": {
+				"PairsTableColumnTitles": {
+					"pair_name": "წყვილი",
+					"price_name": "ფასი",
+					"change_name": "შეცვლა"
+				},
+				"no_pairs_data": "თქვენ არ გაქვთ წყვილების მონაცემები.",
+				"all_pairs_title": "ყველა",
+				"search_pair_placeholder_text": "ძიება"
+			},
+			"SpotMarketHeader": {
+				"change_24_text": "24 საათიანი შეცვლა",
+				"high_24_text": "24 საათის მაღალი",
+				"low_24_text": "24 საათის დაბალი",
+				"volume_24_text": "24 საათიანი მოცულობა",
+				"workspace_settings_button": "სამუშაო სივრცის პარამეტრები"
+			},
+			"SpotMarketSettingsModal": {
+				"modal_title": "სამუშაო სივრცის პარამეტრები",
+				"modal_subtitle_001": "აქ შეგიძლიათ დააკონფიგურიროთ ადგილზე გვერდი.",
+				"modal_subtitle_002": "თქვენ შეგიძლიათ აჩვენოთ ან დამალოთ საჭირო სექციები.",
+				"modal_orderbook_switched_text": "წიგნის შეკვეთის განყოფილება",
+				"modal_asset_pairs_switched_text": "მხარდაჭერილი სავაჭრო წყვილი",
+				"modal_cancel_button": "გაუქმება",
+				"modal_save_button": "Შენახვა"
+			},
+			"SpotHistoryTables": {
+				"open_orders_tab_name": "გახსენით შეკვეთები",
+				"order_history_tab_name": "შეკვეთების ისტორია",
+				"trade_history_tab_name": "ვაჭრობის ისტორია",
+				"hide_other_pairs_checkbox": "სხვა წყვილების დამალვა",
+				"OpenOrdersTable": {
+					"date_column_name": "თარიღი",
+					"pair_column_name": "წყვილი",
+					"type_column_name": "ტიპი",
+					"side_column_name": "მხარე",
+					"average_column_name": "საშუალო",
+					"price_column_name": "ფასი",
+					"amount_column_name": "თანხა",
+					"filled_column_name": "შევსებული",
+					"total_column_name": "სულ",
+					"trigger_conditions_column_name": "ტრიგერის პირობები",
+					"cancel_all_button": "გააუქმეთ ყველა",
+					"cancel_button": "გაუქმება",
+					"no_open_orders_text": "თქვენ არ გაქვთ ღია შეკვეთები.",
+					"confirm_delete_all_orders_title": "გსურთ გააუქმოთ ყველა შეკვეთა?",
+					"confirm_delete_all_body_message": "ყველა შეკვეთა გაუქმდება დაბრუნების შესაძლებლობის გარეშე!",
+					"confirm_delete_order_title": "გსურთ გააუქმოთ შეკვეთა?",
+					"confirm_delete_order_body_message": "მიმდინარე შეკვეთა გაუქმდება დაბრუნების შესაძლებლობის გარეშე!"
+				},
+				"OrdersHistoryTable": {
+					"date_column_name": "თარიღი",
+					"pair_column_name": "წყვილი",
+					"type_column_name": "ტიპი",
+					"side_column_name": "მხარე",
+					"average_column_name": "საშუალო",
+					"price_column_name": "ფასი",
+					"amount_column_name": "თანხა",
+					"filled_column_name": "შევსებული",
+					"total_column_name": "სულ",
+					"status_column_name": "სტატუსი",
+					"no_orders_history_text": "თქვენ არ გაქვთ შეკვეთების ისტორია."
+				},
+				"TradesHitoryTable": {
+					"date_column_name": "თარიღი",
+					"pair_column_name": "წყვილი",
+					"side_column_name": "მხარე",
+					"price_column_name": "ფასი",
+					"executed_column_name": "შესრულებულია",
+					"fee_column_name": "საფასური",
+					"total_column_name": "სულ",
+					"no_trades_history_text": "თქვენ არ გაქვთ ვაჭრობის ისტორია."
+				}
+			}
+		}
+	},
+	"Errors": {
+		"error": "შეცდომა!",
+		"the_email_has_already_been_taken": "ელფოსტა უკვე მიღებულია!",
+		"successful": "წარმატებული!",
+		"information": "ინფორმაცია",
+		"server_error": "Server error. Please, try again later......",
+		"too_many_requests": "ძალიან ბევრი მოთხოვნა!",
+		"invalid_credentials": "არასწორი რწმუნებათა სიგელები!",
+		"invalid_totp_code": "არასწორი Google Authenticator კოდი!",
+		"the_totp_field_is_required": "გთხოვთ, შეიყვანოთ Google Authenticator კოდი!",
+		"registered_successfully": "Თქვენ წარმატებით დარეგისტრირდით. Გადაამოწმოთ ელფოსტა",
+		"check_the_email": "შეამოწმეთ ელ.წერილი ინსტრუქციისთვის!",
+		"email_confirmed": "ელფოსტა წარმატებით დადასტურდა!",
+		"email_already_confirmed": "ელფოსტა უკვე დადასტურებულია!",
+		"the_network_field_is_required": "ქსელის ველი აუცილებელია!",
+		"wallet_service_error": "საფულის სერვისის შეცდომა!",
+		"password_successfully_changed": "Თქვენი პაროლი წარმატებით შეიცვალა!",
+		"google_2fa_activated": "Google 2fa წარმატებით გააქტიურდა!",
+		"google_2fa_turned_off": "Google 2fa წარმატებით გამორთულია!",
+		"websockets_error": "ვებსოკეტების შეცდომა",
+		"session_has_ended": "სხდომა დასრულდა. გთხოვთ ხელახლა შეხვიდეთ!",
+		"required_email": "გთხოვთ, შეიყვანოთ თქვენი ელფოსტა!",
+		"email_format": "ელფოსტის არასწორი ფორმატი!",
+		"email_max_characters": "მაქსიმალური სიმბოლო არ უნდა იყოს 60-ზე მეტი!",
+		"password_required": "Გთხოვთ შეიყვანეთ თქვენი პაროლი!",
+		"password_validation": "პაროლი უნდა შედგებოდეს მინიმუმ 8 სიმბოლოსგან და შეიცავდეს 1 დიდ ასოს, 1 პატარა ასოს, 1 ნომერს, 1 სპეციალურ სიმბოლოს",
+		"password_max_length": "მაქსიმალური სიმბოლო არ უნდა იყოს 25-ზე მეტი!",
+		"passwords_match": "პაროლები უნდა ემთხვეოდნენ!",
+		"confirm_password_required": "გთხოვთ, შეიყვანოთ თქვენი დამადასტურებელი პაროლი!",
+		"accept_terms": "თქვენ უნდა დაეთანხმოთ წესებსა და პირობებს და კონფიდენციალურობის პოლიტიკას!",
+		"temporary_code": "გთხოვთ, შეიყვანოთ თქვენი დროებითი კოდი!",
+		"cookie_policy": "თქვენ უნდა დაეთანხმოთ ქუქიების პოლიტიკას!",
+		"recaptcha": "გთხოვთ გადაამოწმოთ, რომ ადამიანი ხართ!",
+		"google2fa": "Ეს ველი სავალდებულოა!",
+		"email_not_confirmed": "ელფოსტა არ არის დადასტურებული!",
+		"user_blocked": "მომხმარებელი დაბლოკილია!",
+		"ip_not_verified": "IP არ არის დამოწმებული!",
+		"token_not_provided": "ჟეტონი არ არის მოწოდებული!",
+		"token_expired": "ჟეტონს ვადა გაუვიდა!",
+		"token_invalid": "ჟეტონი არასწორია!",
+		"error_active_token_not_found": "შეცდომა! აქტიური ჟეტონი ვერ მოიძებნა!",
+		"token_incorrect": "ჟეტონი არასწორია!",
+		"create_order_unavailable": "შეკვეთის შექმნა მიუწვდომელია!",
+		"empty_order_book": "ცარიელი შეკვეთის წიგნი!",
+		"min_quantity_limit_exceeded": "მინიმალური რაოდენობის ლიმიტი გადააჭარბა!",
+		"invalid_verification_code": "Არასწორი კოდი!",
+		"this_is_the_same_password": "ეს იგივე პაროლია!",
+		"error_incorrect_old_password": "შეცდომა! არასწორი ძველი პაროლი!",
+		"bank_account_updated": "საბანკო ანგარიში განახლებულია!",
+		"bank_account_deleted": "საბანკო ანგარიში წაიშალა!",
+		"cant_send_to_itself": "თავისთვის ვერ გაგზავნის!",
+		"already_sent_invite": "მოწვევა უკვე გაგზავნილია!",
+		"email_sent_success": "ელფოსტა გაიგზავნა წარმატებით!",
+		"2fa_already_enabled": "2fa უკვე ჩართულია!",
+		"2fa_already_disabled": "2fa უკვე გამორთულია!",
+		"invalid_TOTP_code": "არასწორი TOTP კოდი!",
+		"user_already_verified": "მომხმარებელი უკვე დადასტურებულია!",
+		"no_document_file_present": "დოკუმენტის ფაილი არ არის!",
+		"user_already_rejected": "მომხმარებელი უკვე უარყოფილია!",
+		"user_already_approved": "მომხმარებელმა უკვე დაამტკიცა!",
+		"user_not_verified": "მომხმარებელი არ არის დამოწმებული!",
+		"error_create_admin": "შეცდომა ადმინის შექმნისას!",
+		"error_update_admin": "ადმინისტრატორის განახლების შეცდომა!",
+		"You_try_delete_yourself": "თქვენ სცადეთ წაშალოთ თავი!",
+		"same_password_as_previous": "იგივე პაროლი, როგორც წინა!",
+		"settings_not_found": "პარამეტრები ვერ მოიძებნა!",
+		"asset_not_found": "აქტივი ვერ მოიძებნა!",
+		"bank_settings_not_updated": "ბანკის პარამეტრები არ განახლებულია!",
+		"unauthenticated": "არაავთენტიფიცირებული!",
+		"model_not_found": "მოდელი ვერ მოიძებნა!",
+		"unauthorized": "უნებართვო!",
+		"you_need_to_verify_your_account": "თქვენ უნდა დაადასტუროთ თქვენი ანგარიში!",
+		"http_not_found": "http ვერ მოიძებნა!",
+		"the_selected_token_is_invalid": "არჩეული ჟეტონი არასწორია!",
+		"the_selected_email_is_invalid": "მოწყობილობის ჟეტონის ველი აუცილებელია!",
+		"the_device_token_field_is_required": "მოწყობილობის ჟეტონის ველი აუცილებელია!",
+		"the_os_name_field_is_required": "os-ის სახელის ველი აუცილებელია!",
+		"the_os_version_field_is_required": "OS ვერსიის ველი აუცილებელია!",
+		"device_not_verified": "მოწყობილობა არ არის დამოწმებული!",
+		"device_already_verified": "მოწყობილობა უკვე დადასტურებულია!",
+		"not_enough_funds": "არ არის საკმარისი სახსრები!",
+		"not_enough_money": "არ არის საკმარისი სახსრები!",
+		"invalid_email_code": "ელფოსტის კოდი არასწორია!",
+		"the_code_must_not_be_greater_than6_characters": "კოდი არ უნდა იყოს 6 სიმბოლოზე მეტი!",
+		"the_code_field_is_required": "კოდის ველი აუცილებელია!",
+		"the_address_field_is_required": "მისამართის ველი აუცილებელია!"
+	}
+}

@@ -1,0 +1,14 @@
+// ==========================================:
+.orderbook__table--full-height.spot-orderbook__table .table-body {
+	height: 940px;
+}
+
+.orderbook__table-item-tr {
+	cursor: pointer;
+}
+
+.orderbook-ask-table-body {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}

@@ -1,0 +1,45 @@
+// ==========================================:
+.login-register-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	.login-register-link {
+		display: block;
+		padding: 0 5px;
+		font-size: 16px;
+		line-height: 20px;
+		color: #00da83;
+	}
+}
+
+.table-history-login-register-wrapper {
+	padding: 100px 0;
+	min-height: 100%;
+}
+
+.user-trades-history-login-register-wrapper {
+	padding: 250px 0;
+}
+
+.create-order-btn-login-register-wrapper {
+	margin-top: 14px;
+	padding-top: 10px;
+	min-height: 48px;
+	font-size: 16px;
+	background-color: #e6e8ec;
+	border-radius: 12px;
+	margin-top: auto;
+}
+
+.radio__item.active {
+	border: 1px solid #00da83;
+	background: #e6fbf2;
+}
+
+.market-footer__table {
+	.link:disabled {
+		cursor: inherit;
+		color: #777e90;
+	}
+}

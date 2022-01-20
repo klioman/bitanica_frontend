@@ -1,0 +1,373 @@
+{
+	"Base": {
+		"Modals": {
+			"Captcha": {
+				"platform": "Bitanica",
+				"slide_text": "Slide to complete the puzzle",
+				"text": "futures USDT collateral makes trading simple"
+			},
+			"ConfirmDeletePopup": {
+				"yes_button": "Yes, delete",
+				"no_button": "No"
+			}
+		}
+	},
+	"HomePage": {
+		"BuySellCrypto": {
+			"title": "Buy & sell Crypto in minutes",
+			"subtitle": "Join the world's largest crypto exchange"
+		}
+	},
+	"LoginPage": {
+		"login_page_title": "Login",
+		"login_btn": "Login"
+	},
+	"ForgotPasswordPage": {
+		"forgot_password_page_title": "Forgot password"
+	},
+	"RegistrPage": {
+		"registr_page_title": "Registration",
+		"registr_btn": "Registration"
+	},
+	"DepositCrypto": {
+		"deposit_crypto_page_title": "Deposit Crypto"
+	},
+	"WithdrawCrypto": {
+		"withdraw_crypto_page_title": "Withdraw Crypto"
+	},
+	"EmailConfirm": {
+		"EmailConfirmError": {
+			"email_confirm_error_title": "Your email has already been successfully verified!",
+			"email_confirm_error_button": "Go to login page",
+			"email_confirm_error_send_title": "The letter was successfully sent to the email you specified. Please check your email!",
+			"email_confirm_error_exp_title": "Confirmation error",
+			"email_confirm_error_exp": "Sorry, an error has occurred. Click on the button below to send the confirmation email again",
+			"email_confirm_error_send_btn": "Send again"
+		},
+		"EmailConfirmSuccess": {
+			"email_confirm_success_title": "Your email has already been successfully verified!",
+			"email_confirm_completed": "Registration completed",
+			"email_confirm_completed_text": "Registration completed successfully.",
+			"email_confirm_success_btn": "Go to login page"
+		}
+	},
+	"IPConfirmation": {
+		"ip_confirmation_title": "IP confirmation",
+		"ip_confirmation_success_confirm": "Your IP have been verified successfully!",
+		"ip_confirmation_code": "Please, enter your confirm code!",
+		"ip_confirmation_text": "You are logged in from a different IP address. We have sent a confirmation code to your mail. Please enter the code below",
+		"ip_confirmation_field_email": "Email address",
+		"ip_confirmation_submit": "Submit"
+	},
+	"Forms": {
+		"LoginForm": {
+			"login_form_title": "Account Login",
+			"login_form_subtitle": "Welcome back! Log In with your Email",
+			"login_google2fa": "Enter Google Authenticator Code (2FA)",
+			"login_forgot_password": "Forgot password?",
+			"login_submit_btn": "Log In",
+			"login_support": "Support",
+			"login_field_email": "Email address",
+			"login_field_password": "Password"
+		},
+		"ForgotPassword": {
+			"forgot_password_link": "Back",
+			"forgot_password_title": "Forgot password",
+			"forgot_password_text": "Please enter your email address in order to get the reset password code",
+			"forgot_password_btn_submit": "Submit",
+			"forgot_password_field_email": "Email address"
+		},
+		"RegistrForm": {
+			"registr_form_title": "Create an account",
+			"registr_form_subtitle": "Please input your personal details",
+			"registr_form_field_email": "Email",
+			"registr_form_field_password": "Password",
+			"registr_form_field_confirm_password": "Confirm Password",
+			"registr_form_agree_terms": "I agree to",
+			"registr_form_agree_terms_conditions": "Terms & Conditions",
+			"registr_form_agree_terms_and": "and",
+			"registr_form_agree_terms_privat": "Privacy Policy",
+			"registr_form_agree_width": "I agree with the",
+			"registr_form_agree_width_cookie": "Cookie Policy",
+			"registr_form_submit_btn": "Create account"
+		},
+		"ChangePassForm": {
+			"change_pass_form_title": "Change Password",
+			"change_pass_form_btn": "Change Password",
+			"change_pass_form_field_old_password": "Enter your password",
+			"change_pass_form_field_password": "New password",
+			"change_pass_form_field_confirm_password": "Confirm password"
+		},
+		"Google2fa": {
+			"google_2fa_form_title": "2FA Code from Authenticator App",
+			"google_2fa_form_field_text": "Enter a 6-digit 2FA code",
+			"google_2fa_form_btn_enable": "Enable",
+			"google_2fa_form_btn_disable": "Disable",
+			"google_2fa_form_btn_cancel": "Cancel"
+		}
+	},
+	"Account": {
+		"AccountSettings": {
+			"general_account_settings": "General account settings",
+			"changing_user_data": "User data"
+		},
+		"TwoFactorAuth": {
+			"two_factor_auth_page_app_title": "Two-Factor Authentication (2FA)",
+			"two_factor_auth_page_title": "Two-Factor Authentication",
+			"two_factor_auth_enable_title": "Enable Two-Factor Authentication",
+			"two_factor_auth_enable_text": "For your security, we strongly recommend enabling 2FA on your account. After that, you will need to enter a one-time 6-digit code each time you are logging into your account, withdrawing funds or changing the password.",
+			"two_factor_auth_enable_btn": "Enable 2FA",
+			"two_factor_auth_loading": "Loading...",
+			"two_factor_auth_disable_title": "Disable Two-Factor Authentication",
+			"two_factor_auth_disable_btn": "Disable 2FA",
+			"two_factor_step01_title": "Download 2FA App",
+			"two_factor_step01_text": "You should download and install an authenticator application, such as Google Authenticator or Authy, on your mobile device. This app will generate one-time 6-digit access codes, which are required for logging into your account.",
+			"two_factor_step02_title": "Save 2FA Backup Key and Scan QR Code",
+			"two_factor_step02_text": "Please, backup your 2FA recovery key to some offline storage, write down on a paper. If your mobile device gets lost, stolen or erased, you will need this key to recover your 2FA access.",
+			"two_factor_step02_input_label": "Backup / Secret Key",
+			"two_factor_step02_message": "Please, write down or print a copy of the key above and store it safely.",
+			"two_factor_step03_title": "Confirm 2FA Activation"
+		}
+	},
+	"Menu": {
+		"Select": "Select",
+		"Wallet": {
+			"wallet": "Wallet",
+			"fiat_and_spot": "Fiat and Spot",
+			"p2p": "P2P",
+			"margin": "Margin",
+			"transaction_history": "Transaction History"
+		},
+		"Account": {
+			"account": "Account",
+			"account_settings": "Account Settings",
+			"log_out": "Log out"
+		}
+	},
+	"Trade": {
+		"Spot": {
+			"SpotTradeBox": {
+				"spot_trading": "Spot trading",
+				"margin_trading": "Margin trading",
+				"buy_button": "Buy",
+				"sell_button": "Sell",
+				"limit_order_name": "Limit",
+				"market_order_name": "Market",
+				"stop_limit_order_name": "Stop-limit",
+				"BuySellWrapper": {
+					"available_balance": "Available balance"
+				},
+				"LimitOrder": {
+					"price_field_name": "Price",
+					"amount_field_name": "Amount",
+					"total_field_name": "Total",
+					"max_amount_error_text": "Max amount",
+					"min_amount_error_text": "Min amount",
+					"amount_available_balance_error_text": "Amount is more than your available balance",
+					"total_error_text": "Total is more than your available balance"
+				},
+				"MarketOrder": {
+					"amount_field_name": "Amount",
+					"max_amount_error_text": "Max amount",
+					"min_amount_error_text": "Min amount"
+				},
+				"StopLimitOrder": {
+					"stop_field_name": "Stop",
+					"limit_field_name": "Limit",
+					"amount_field_name": "Amount",
+					"total_field_name": "Total",
+					"max_amount_error_text": "Max amount",
+					"min_amount_error_text": "Min amount",
+					"amount_available_balance_error_text": "Amount is more than your available balance",
+					"total_error_text": "Total is more than your available balance"
+				},
+				"OrderButtons": {
+					"buy_button": "Buy",
+					"sell_button": "Sell"
+				}
+			},
+			"SpotRecentTrades": {
+				"market_trade_tab_name": "Market Trades",
+				"user_trade_tab_name": "My Trades",
+				"RecentTradesColumnTitles": {
+					"price_name": "Price",
+					"amount_name": "Amount",
+					"time_name": "Time"
+				},
+				"UserTradesColumnTitles": {
+					"price_name": "Price",
+					"amount_name": "Amount",
+					"time_name": "Time"
+				}
+			},
+			"SpotOrderBook": {
+				"OrderBookColumnTitles": {
+					"price_name": "Price",
+					"amount_name": "Amount",
+					"total_name": "Total"
+				}
+			},
+			"SpotPairs": {
+				"PairsTableColumnTitles": {
+					"pair_name": "Pair",
+					"price_name": "Price",
+					"change_name": "Change"
+				},
+				"no_pairs_data": "You have no pairs data.",
+				"all_pairs_title": "All",
+				"search_pair_placeholder_text": "Search"
+			},
+			"SpotMarketHeader": {
+				"change_24_text": "24h Change",
+				"high_24_text": "24h High",
+				"low_24_text": "24h Low",
+				"volume_24_text": "24h Volume",
+				"workspace_settings_button": "Workspace settings"
+			},
+			"SpotMarketSettingsModal": {
+				"modal_title": "Workspace settings",
+				"modal_subtitle_001": "Here you can customize the spot page.",
+				"modal_subtitle_002": "You can show or hide the required sections.",
+				"modal_orderbook_switched_text": "Order book section",
+				"modal_asset_pairs_switched_text": "Supported trading pairs",
+				"modal_cancel_button": "Cancel",
+				"modal_save_button": "Save"
+			},
+			"SpotHistoryTables": {
+				"open_orders_tab_name": "Open Orders",
+				"order_history_tab_name": "Order History",
+				"trade_history_tab_name": "Trade History",
+				"hide_other_pairs_checkbox": "Hide Other Pairs",
+				"OpenOrdersTable": {
+					"date_column_name": "Date",
+					"pair_column_name": "Pair",
+					"type_column_name": "Type",
+					"side_column_name": "Side",
+					"average_column_name": "Average",
+					"price_column_name": "Price",
+					"amount_column_name": "Amount",
+					"filled_column_name": "Filled",
+					"total_column_name": "Total",
+					"trigger_conditions_column_name": "Trigger Conditions",
+					"cancel_all_button": "Cancel All",
+					"cancel_button": "Cancel",
+					"no_open_orders_text": "You have no open orders.",
+					"confirm_delete_all_orders_title": "Do you want to cancel All orders?",
+					"confirm_delete_all_body_message": "The All orders will be canceled without the possibility of returning!",
+					"confirm_delete_order_title": "Do you want to cancel an order?",
+					"confirm_delete_order_body_message": "The current order will be canceled without the possibility of returning!"
+				},
+				"OrdersHistoryTable": {
+					"date_column_name": "Date",
+					"pair_column_name": "Pair",
+					"type_column_name": "Type",
+					"side_column_name": "Side",
+					"average_column_name": "Average",
+					"price_column_name": "Price",
+					"amount_column_name": "Amount",
+					"filled_column_name": "Filled",
+					"total_column_name": "Total",
+					"status_column_name": "Status",
+					"no_orders_history_text": "You have no orders history."
+				},
+				"TradesHitoryTable": {
+					"date_column_name": "Date",
+					"pair_column_name": "Pair",
+					"side_column_name": "Side",
+					"price_column_name": "Price",
+					"executed_column_name": "Executed",
+					"fee_column_name": "Fee",
+					"total_column_name": "Total",
+					"no_trades_history_text": "You have no trades history."
+				}
+			}
+		}
+	},
+	"Errors": {
+		"error": "Error!",
+		"the_email_has_already_been_taken": "The email has already been taken!",
+		"successful": "Successful!",
+		"information": "Information",
+		"server_error": "Server error. Please, try again later...",
+		"too_many_requests": "Too many requests!",
+		"invalid_credentials": "Invalid credentials!",
+		"invalid_totp_code": "Invalid Google Authenticator code!",
+		"the_totp_field_is_required": "Please enter the Google Authenticator code!",
+		"registered_successfully": "You have registered successfully. Check your e-mail!",
+		"check_the_email": "Check the email for the instruction!",
+		"email_confirmed": "Email confirmed successfully!",
+		"email_already_confirmed": "Email already confirmed!",
+		"the_network_field_is_required": "The network field is required!",
+		"wallet_service_error": "Wallet service error!",
+		"password_successfully_changed": "Your password has been successfully changed!",
+		"google_2fa_activated": "Google 2fa successfully activated!",
+		"google_2fa_turned_off": "Google 2fa successfully turned off!",
+		"websockets_error": "Websockets Error",
+		"session_has_ended": "The session has ended. Please re-login!",
+		"required_email": "Please, enter your email!",
+		"email_format": "Invalid email format!",
+		"email_max_characters": "Max characters must be not more than 60!",
+		"password_required": "Please, enter your password!",
+		"password_validation": "Password must be at least 8 characters long and include 1 uppercase letter, 1 lowercase letter, 1 number, 1 special symbol",
+		"password_max_length": "Max characters must be not more than 25!",
+		"passwords_match": "Passwords must match!",
+		"confirm_password_required": "Please, enter your confirm password!",
+		"accept_terms": "You must agree to the terms & conditions and privacy policy!",
+		"temporary_code": "Please, enter your temporary code!",
+		"cookie_policy": "You must agree to  cookie policy!",
+		"recaptcha": "Please verify that you are a human!",
+		"google2fa": "This field is required!",
+		"email_not_confirmed": "Email not confirmed!",
+		"user_blocked": "User blocked!",
+		"ip_not_verified": "IP not verified!",
+		"token_not_provided": "Token not provided",
+		"token_expired": "Token expired",
+		"token_invalid": "Token invalid",
+		"error_active_token_not_found": "Error! Active token not found",
+		"token_incorrect": "Token incorrect!",
+		"create_order_unavailable": "Create order unavailable!",
+		"empty_order_book": "Empty order book!",
+		"min_quantity_limit_exceeded": "Min quantity limit exceeded!",
+		"invalid_verification_code": "Invalid verification code",
+		"this_is_the_same_password": "This is the same password!",
+		"error_incorrect_old_password": "Error! Incorrect old password!",
+		"bank_account_updated": "Bank account updated!",
+		"bank_account_deleted": "Bank account deleted!",
+		"cant_send_to_itself": "Can't send to itself!",
+		"already_sent_invite": "Already sent invite!",
+		"email_sent_success": "Email sent success!",
+		"2fa_already_enabled": "2fa already enabled!",
+		"2fa_already_disabled": "2fa already disabled!",
+		"invalid_TOTP_code": "Invalid TOTP code!",
+		"user_already_verified": "User already verified!",
+		"no_document_file_present": "No document file present!",
+		"user_already_rejected": "User already rejected!",
+		"user_already_approved": "The user already approved!",
+		"user_not_verified": "User not verified!",
+		"error_create_admin": "Error create admin!",
+		"error_update_admin": "Error update admin!",
+		"You_try_delete_yourself": "You try delete yourself!",
+		"same_password_as_previous": "Same password as previous!",
+		"settings_not_found": "Settings not found!",
+		"asset_not_found": "Asset not found!",
+		"bank_settings_not_updated": "Bank settings not updated!",
+		"unauthenticated": "Unauthenticated!",
+		"model_not_found": "Model not found!",
+		"unauthorized": "Unauthorized!",
+		"you_need_to_verify_your_account": "You need to verify your account!",
+		"http_not_found": "http not found!",
+		"the_selected_token_is_invalid": "The selected token is invalid!",
+		"the_selected_email_is_invalid": "The selected email is invalid!",
+		"the_device_token_field_is_required": "The device token field is required!",
+		"the_os_name_field_is_required": "The os name field is required!",
+		"the_os_version_field_is_required": "The os version field is required!",
+		"device_not_verified": "Device not verified!",
+		"device_already_verified": "Device already verified!",
+		"not_enough_funds": "Not enough funds!",
+		"not_enough_money": "Not enough money!",
+		"invalid_email_code": "Invalid email code!",
+		"the_code_must_not_be_greater_than6_characters": "The code must not be greater than 6 characters!",
+		"the_code_field_is_required": "The code field is required!",
+		"the_address_field_is_required": "The address field is required!"
+	}
+}

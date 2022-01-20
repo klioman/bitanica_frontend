@@ -1,0 +1,45 @@
+// ==========================================:
+.change-form {
+	.input-item {
+		padding-right: 70px;
+	}
+
+	.input {
+		&--error {
+			.input-item {
+				border: 1px solid #f44336;
+			}
+			.input-icon--error {
+				display: block;
+			}
+		}
+		&--success {
+			.input-item {
+				border: 1px solid #00da83;
+			}
+			.input-icon--success {
+				display: block;
+			}
+		}
+	}
+}
+
+.input-icon {
+	top: 31px;
+	right: 50px;
+	display: none;
+}
+
+.change-passs-wrapper {
+	position: relative;
+}
+
+.input-form__item {
+	&--error {
+		border: 1px solid #f44336;
+	}
+
+	&--success {
+		border: 1px solid #00da83;
+	}
+}

@@ -1,0 +1,26 @@
+.pagination {
+	li {
+		cursor: pointer;
+	}
+	.disabled {
+		cursor: default;
+		border-color: #ccc;
+		color: #ccc;
+		span {
+			svg {
+				fill: #ccc;
+			}
+		}
+	}
+	.active {
+		a {
+			border: 1px solid #00da83;
+			color: #00da83;
+			cursor: default;
+		}
+	}
+}
+
+.arrow--left {
+	transform: rotate(180deg);
+}

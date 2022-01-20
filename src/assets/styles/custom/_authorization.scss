@@ -1,0 +1,82 @@
+// ==========================================:
+.authorization {
+	position: relative;
+	width: 100%;
+	max-width: 421px;
+	margin: auto;
+	padding: 25px 0 40px;
+
+	.show-pass {
+		top: 20px;
+		transform: inherit;
+	}
+}
+
+.show-pass {
+	top: 30px;
+}
+
+.input--error .input-item {
+	border-width: 1px;
+}
+
+.grecaptcha-badge {
+	display: none;
+}
+
+.additional {
+	position: relative;
+	min-height: 327px;
+	&__icon {
+		width: 60px;
+	}
+}
+
+.input-notify {
+	&__text {
+		color: var(--ui-error-color);
+	}
+}
+
+.google-2fa-button {
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 1.3;
+	color: #777e90;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.google-2fa-input {
+	padding-top: 10px;
+}
+
+.google-2fa-icon {
+	display: inline-block;
+	width: 20px;
+	margin-left: 5px;
+	transition: all 0.3s linear;
+	&--rotate {
+		transform: rotate(180deg);
+		transition: all 0.3s linear;
+	}
+}
+
+.popup-window {
+	&__close {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+	}
+}
+
+.captcha-modal {
+	z-index: 1;
+}
+
+.additional__title.email-confirm-check {
+	font-size: 30px;
+}

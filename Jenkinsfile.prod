@@ -1,0 +1,123 @@
+pipeline {
+    agent any
+    environment {
+        AWS_ECR_ACC = "103992783823"
+		AWS_ECR_REG = "us-east-1"
+        JENKINS_ECR_CRED = "Merehead-AWS-ECR-Admin"
+        JENKINS_SSH_CRED = "JENKINS_SSH_CRED_BITANICA"
+		PROJECT_NAME = "bitanica_frontend"
+		DEPLOY_ENV = "prod"
+        GIT_REPO_CREDS = "vmoskalenko_gitlab_ssh"
+		GIT_REPO_TO_BUILD ="git@gitlab.com:merehead/bitanica/bitanica_frontend.git"
+        GIT_BRANCH_TO_BUILD = "develop"
+        SERVER_IP = "18.184.144.177"
+		PROJECT_DIR = "/var/projects/bitanica_frontend/docker"
+        CHAT_ID = -722814419
+		CHAT_MESSAGE = "bitanica_frontend develop"
+        BOT_ID = "1471454587:AAEXiP8BvFRY_MCzHfNo94ktlIm4yvvCn3w"
+    }
+
+    stages {
+
+        stage('Clone repository') {
+            steps {
+                git branch: "${GIT_BRANCH_TO_BUILD}", url: "${GIT_REPO_TO_BUILD}", credentialsId: "${GIT_REPO_CREDS}"
+				script {
+					env.GIT_SHA = sh(returnStdout: true, script: "git rev-parse --short HEAD").replaceAll("\\s","")
+				}
+            }
+        }
+
+        stage('Build image') {
+            steps {
+                sh "docker build --build-arg APP_NAME=${PROJECT_NAME} --build-arg REACT_APP_VERSION=${GIT_SHA} -t ${AWS_ECR_ACC}.dkr.ecr.${AWS_ECR_REG}.amazonaws.com/${PROJECT_NAME}-${DEPLOY_ENV}:${GIT_SHA} -f ./docker/nginx/Dockerfile ."
+            }
+        }
+
+        stage('Push image') {
+            steps {
+                script {
+                        docker.withRegistry("https://${AWS_ECR_ACC}.dkr.ecr.${AWS_ECR_REG}.amazonaws.com", "ecr:${AWS_ECR_REG}:${JENKINS_ECR_CRED}") {
+                        sh "docker push ${AWS_ECR_ACC}.dkr.ecr.${AWS_ECR_REG}.amazonaws.com/${PROJECT_NAME}-${DEPLOY_ENV}:${GIT_SHA}"
+                    }
+                }
+            }
+        }
+
+        stage('Pull image and restart container') {
+            steps {
+                script {
+                    withCredentials([
+							file(credentialsId: "${JENKINS_SSH_CRED}", variable: 'RSA')
+						]) {
+                            script {
+						        sh """
+                                   ssh ubuntu@${SERVER_IP} -o StrictHostKeyChecking=no -i ${RSA} 'cd ${PROJECT_DIR}; sed -i \"s/image.*/image: ${AWS_ECR_ACC}.dkr.ecr.${AWS_ECR_REG}.amazonaws.com\\/${PROJECT_NAME}-${DEPLOY_ENV}:${GIT_SHA}/g\" docker-compose.yml ; sudo make update'
+								"""
+							}
+						}
+				}
+            }
+        }
+
+        stage('Telegram message') {
+            steps {
+                script {
+    				final String url = "https://api.telegram.org/bot${BOT_ID}/sendMessage -d chat_id=${CHAT_ID} -d "
+
+	    			final String message = "text=\"${CHAT_MESSAGE}:${GIT_SHA} ${DEPLOY_ENV} deploy completed SUCCESSFULLY\""
+
+                    final String response = sh(script: "/usr/bin/curl -s -X POST $url $message", returnStdout: true).trim()
+
+				echo response
+				}
+            }
+        }
+    }
+
+    post {
+         always {
+             echo 'This will always run'
+         }
+         success {
+             echo 'This will run only if successful'
+         }
+         failure {
+                script {
+					sh """
+						log_file_name=${JENKINS_HOME}/jobs/${JOB_NAME}/builds/${BUILD_NUMBER}/log
+						loglastline=`awk '/skipped due to earlier failure/{ print NR; exit }' \$log_file_name`
+						logstartline=`awk '/docker build/{ print NR; exit }' \$log_file_name`
+						if [ ! -n \"\$logstartline\" ]
+						then
+							logstartline=1
+						fi
+						loglength=\$((loglastline-logstartline))
+						tail --lines=+\$logstartline \$log_file_name |head -n \$loglength| perl -p -e 's/\\n/\\r\\n/' > ${GIT_COMMIT}.txt
+					"""
+
+    				final String url = "https://api.telegram.org/bot${BOT_ID}/sendMessage -d chat_id=${CHAT_ID} -d "
+
+	    			final String message = "text=\"${CHAT_MESSAGE}:${GIT_SHA} completed with ERROR\""
+
+                    final String response = sh(script: "/usr/bin/curl -s -X POST $url $message", returnStdout: true).trim()
+
+				echo response
+
+					final String file_response = sh(script: "/usr/bin/curl -F document=@\"${GIT_COMMIT}.txt\" https://api.telegram.org/bot${BOT_ID}/sendDocument?chat_id=${CHAT_ID}", returnStdout: true).trim()
+
+			    echo file_response
+
+					sh(script: "/bin/rm -f ${GIT_COMMIT}.txt")
+
+				}
+         }
+         unstable {
+             echo 'This will run only if the run was marked as unstable'
+         }
+         changed {
+             echo 'This will run only if the state of the Pipeline has changed'
+             echo 'For example, if the Pipeline was previously failing but is now successful'
+         }
+     }
+}

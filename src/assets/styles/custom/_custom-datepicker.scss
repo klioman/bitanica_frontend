@@ -1,0 +1,87 @@
+// ==========================================:
+.input-wrapper .react-datepicker {
+	font-size: 14px;
+	background: #fff;
+	border: 1px solid #dadada;
+	box-shadow: 0 12.72px 12.72px rgb(0 0 0 / 10%);
+	color: #777e90;
+	border-radius: 15px;
+	display: inline-block;
+	position: relative;
+}
+
+.input-wrapper .react-datepicker__day--keyboard-selected,
+.input-wrapper .react-datepicker__day--in-selecting-range,
+.input-wrapper .react-datepicker__day--in-range {
+	background-color: #00da83;
+}
+
+.input-wrapper .react-datepicker__navigation--next {
+	right: 10px;
+	top: 8px;
+}
+
+.input-wrapper .react-datepicker__navigation--previous {
+	left: 10px;
+	top: 8px;
+}
+
+.react-datepicker__navigation-icon {
+	&::before {
+		border-color: #ccc;
+		border-style: solid;
+		border-width: 3px 3px 0 0;
+		content: '';
+		display: block;
+		height: 9px;
+		position: absolute;
+		top: 6px;
+		width: 9px;
+	}
+}
+
+.react-datepicker__navigation-icon--next::before {
+	transform: rotate(45deg);
+	left: -7px;
+}
+
+.input-wrapper .react-datepicker__header {
+	text-align: center;
+	background-color: #fff;
+	border-bottom: 1px solid #dadada;
+	border-top-left-radius: 15px !important;
+	border-top-right-radius: 15px !important;
+	padding-top: 8px;
+	position: relative;
+}
+
+.input-wrapper .react-datepicker__close-icon {
+	z-index: 3;
+
+	&::after {
+		background-color: #00da83;
+	}
+}
+
+.input-wrapper .react-datepicker__input-container .input-icon {
+	left: 12px;
+	top: 18px;
+	display: flex;
+	width: 24px;
+}
+
+.react-datepicker__input-container input {
+	background-color: inherit;
+}
+
+.date-form__input .input-item {
+	position: relative;
+	z-index: 3;
+}
+
+.icon-Calendar:before {
+	position: absolute;
+	top: -12px;
+	cursor: text;
+	z-index: 2;
+}

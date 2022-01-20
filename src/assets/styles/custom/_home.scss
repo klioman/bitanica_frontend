@@ -1,0 +1,57 @@
+// ==========================================:
+.page-bg {
+	background-image: url('../../img/content/page-bg.png');
+}
+
+.crypto-cards {
+	background-image: url('../../img/content/linear-bg.png');
+}
+
+.hero {
+	background-image: url('../../img/content/hero-bg.png');
+}
+
+.register-block {
+	&__footer {
+		&::before {
+			background-image: url('../../img/content/line.svg');
+		}
+	}
+}
+
+.info-content {
+	&__img {
+		&::before {
+			background-image: url('../../img/content/decor.svg');
+		}
+	}
+}
+
+.info-content {
+	&__img {
+		&::after {
+			background-image: url('../../img/content/decor2.svg');
+		}
+	}
+}
+
+.loading-bar {
+	background-color: #009a5b;
+	height: 3px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+
+.main-nav {
+	&__link {
+		&:hover {
+			color: #009a5b;
+		}
+		&.active {
+			color: #009a5b;
+		}
+	}
+}
